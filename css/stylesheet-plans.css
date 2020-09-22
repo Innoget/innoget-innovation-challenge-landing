@@ -505,7 +505,6 @@ a:hover {
 	padding: 60px 0 80px 0;
 	background-color: #f9f9f9;
 	border-top: 1px solid #e8e8e8;
-	border-bottom: 1px solid #e8e8e8;
 }
 
 table.pricing-table {
@@ -569,6 +568,70 @@ table.pricing-table td .lnr-question-circle:hover {
 }
 
 /*END PLANS COMPARISON TABLE*/
+/*MODULES*/
+
+.orange-bubble {
+	position: absolute;
+	right: 28%;
+}
+
+#modules {
+	padding: 60px 0 20px 0;
+	background-color: #fff;
+	border-top: 1px solid #e8e8e8;
+}
+
+#modules .box {
+	box-shadow: 0 0 30px #d8dce0;
+	border: none;
+}
+
+#modules .box-wrapper {
+	height: 70%;
+	position: relative;
+}
+
+#modules .box.right {
+	position: sticky;
+	top: 30px;
+}
+
+#modules .box button {
+	width: 100%;
+}
+
+#modules .title-area {
+	margin-bottom: 35px;
+}
+
+#modules .title-area h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#modules .module-wrapper label {
+	display: flex;
+	font-weight: 100;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+#modules .module-wrapper label:last-child {
+	margin-bottom: 0;
+}
+
+#modules .module-wrapper label span {
+	font-weight: bold;
+	display: block;
+}
+
+#modules .module-wrapper input {
+	margin-right: 10px;
+	min-width: 18px;
+	height: 18px;
+}
+
+/*END MODULES*/
 /*TESTIMONIALS*/
 #testimonials {
 	padding: 80px 0;
