@@ -298,343 +298,175 @@ a:hover {
 }
 
 /*END GENERAL STYLES*/
-/*TOP ELEMENT*/
-
-.ge-1 {
-	background-color: #f6f8fb;
-	height: 440px;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	border-bottom-left-radius: 100%;
-	border-bottom-right-radius: 100%;
-}
-
-/*END TOP ELEMENT*/
 /*PAGE HEADER*/
 
 #header {
-	padding: 50px 0 20px;
+	padding: 60px 0 0;
+}
+
+#header .header {
+	margin: 0 auto;
+}
+
+#header .header p.sub-h1 {
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
 /*END PAGE HEADER*/
 /*PRICING TABLE*/
 
-#plans .container-fluid .row .pricing-table {
+#intro-modules {
+	padding: 60px 0;
+}
+
+#intro-modules .intro-modules-wrapper {
 	display: flex;
-	flex: 1;
-	flex-direction: row;
-	border-radius: 8px !important;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-	background-color: #ffffff;
-	border: none;
-	position: relative;
-	max-width: 1250px;
-	margin: 0 auto;
+	justify-content: center;
 }
 
-#plans .container-fluid .pricing-table .item {
-	width: 33.33%;
+#intro-modules .intro-modules-wrapper .module-box {
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
+	margin-bottom: 20px;
 }
 
-#plans .container-fluid .pricing-table .box {
-	background: transparent;
-	padding: 25px 35px;
-	font-weight: 500;
-	height: 100%;
+#intro-modules .intro-modules-wrapper .module-box:last-child {
+	margin-bottom: 0;
+}
+
+#intro-modules .intro-modules-wrapper .icon-module {
+	min-width: 35px;
+	height: 35px;
+	background-color: #93aece;
+	border-radius: 100px;
 	display: flex;
-	flex-direction: column;
-	border: none;
-}
-
-#plans .container-fluid .pricing-table .box .header {
-	display: flex;
-	flex-direction: row;
-	flex: 1;
-}
-
-#plans .container-fluid .pricing-table .box .header.t-30 {
-	position: relative;
-	top: 30px;
-}
-
-#plans .container-fluid .pricing-table .box .header .left {
-	margin-right: 35px;
-}
-
-#plans .container-fluid .pricing-table .box .header .left,
-#plans .container-fluid .pricing-table .box .header .right {
-	align-content: center;
 	align-items: center;
-	align-self: initial;
-	text-align: left;
+	justify-content: center;
 }
 
-#plans .container-fluid .pricing-table .box .tag {
-	font-weight: 600;
-	letter-spacing: 1px !important;
-	margin: -25px -25px 5px -25px;
-	display: flex;
-	flex-direction: row;
-	padding: 15px 25px;
+#intro-modules .intro-modules-wrapper .col-left .module-box {
+	flex-direction: row-reverse;
 }
 
-#plans .container-fluid .pricing-table .box .tag img,
-#plans .container-fluid .pricing-table .box .tag p {
-	align-self: center;
-	display: flex;
+#intro-modules .intro-modules-wrapper .col-left .icon-module {
+	margin-left: 25px;
 }
 
-#plans .container-fluid .pricing-table .box .tag img {
-	height: 20px;
-	margin-right: 8px;
+#intro-modules .intro-modules-wrapper .col-right .icon-module {
+	margin-right: 25px;
+}
+
+#intro-modules .intro-modules-wrapper h3 {
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+#intro-modules .intro-modules-wrapper .col-left {
+	margin-right: 30px;
+}
+
+#intro-modules .intro-modules-wrapper .col-right {
+	margin-left: 30px;
+}
+
+#intro-modules .intro-modules-wrapper .col-left,
+#intro-modules .intro-modules-wrapper .col-right {
+	width: 30%;
+}
+
+#intro-modules .intro-modules-wrapper .col-left .module-box,
+#intro-modules .intro-modules-wrapper .col-right .module-box {
 	position: relative;
-	z-index: 10;
 }
 
-#plans .container-fluid .pricing-table .box .tag img:nth-child(2) {
-	z-index: 11;
-	margin-left: -13px;
+#intro-modules .intro-modules-wrapper .col-left .module-box:first-child,
+#intro-modules .intro-modules-wrapper .col-left .module-box:last-child {
+	right: -40px;
 }
 
-#plans .container-fluid .pricing-table .box .tag img:nth-child(3) {
-	z-index: 12;
-	margin-left: -13px;
+#intro-modules .intro-modules-wrapper .col-left .module-box:nth-child(2),
+#intro-modules .intro-modules-wrapper .col-left .module-box:nth-child(3) {
+	right: -10px;
 }
 
-#plans .container-fluid .pricing-table .box .tag p {
-	margin-bottom: 0;
+#intro-modules .intro-modules-wrapper .col-right .module-box:first-child,
+#intro-modules .intro-modules-wrapper .col-right .module-box:last-child {
+	left: -40px;
 }
 
-#plans .container-fluid .pricing-table .box .header h2 {
-	font-size: 20px;
+#intro-modules .intro-modules-wrapper .col-right .module-box:nth-child(2),
+#intro-modules .intro-modules-wrapper .col-right .module-box:nth-child(3) {
+	left: -10px;
 }
 
-#plans .container-fluid .pricing-table .box .header p.sub-h2 {
-	font-size: 13px;
+#intro-modules .intro-modules-wrapper .col-center {
+	width: 35%;
+	justify-content: center;
+	display: flex;
+	align-items: center;
 }
 
-#plans .container-fluid .box .price h3 {
-	font-size: 22px;
-	position: relative;
-	margin: 0 0 5px 0;
-	line-height: 25px;
+#intro-modules .intro-modules-wrapper .col-center .bubble {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-#plans .container-fluid .box .price p.sub-h3 {
-	font-size: 11px;
-	line-height: 1.2;
-	color: #999999;
-	margin-bottom: 0;
-}
-
-#plans .container-fluid .box .price p.sub-h3.top {
-	margin-top: -13px;
-}
-
-#plans .container-fluid .box .price span.currency {
-	font-size: 14px;
-	opacity: 0.5;
-	position: absolute;
-	top: -2px;
-	margin-left: 6px;
-}
-
-#plans .container-fluid .box .cta {
-	margin-top: 15px;
-}
-
-#plans .container-fluid .box .cta a {
-	width: 100% !important;
-}
-
-#plans .container-fluid .box a .bottom-btn {
-	padding: 10px 15px;
-	margin: 35px -35px -25px;
-	text-align: center;
-	border-top: 1px solid #e8e8e8;
-	transition: 0.4s;
-}
-
-#plans .container-fluid .box a .bottom-btn:hover {
-	background: rgba(0, 0, 0, 0.05);
-	transition: 0.4s;
-}
-
-#plans .container-fluid .box a .bottom-btn p {
-	color: #0c3566;
-	font-weight: 600;
-	font-size: 12px;
-	letter-spacing: 0.5px;
-	margin: 0;
+#intro-modules .intro-modules-wrapper .col-center .bubble img {
+	width: 75%;
+	height: auto;
 }
 
 /*END PRICING TABLE*/
-/*LOGOS*/
+/*MODULES*/
 
-#logos {
-	padding: 50px 0;
-}
-
-#logos p {
-	max-width: 540px;
-	margin: 0 auto;
-}
-
-#logos .grid-h {
-	max-width: 70%;
-	margin: 0 auto;
-	margin-top: 30px;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-#logos .grid-h img,
-#testimonials .logos .grid-h img {
-	width: 125px;
-	margin: 5px 10px;
-}
-
-/*END LOGOS*/
-/*PLANS COMPARISON TABLE*/
-
-#comp-table {
-	padding: 60px 0 80px 0;
-	background-color: #f9f9f9;
-	border-top: 1px solid #e8e8e8;
-}
-
-table.pricing-table {
-	width: 100%;
-}
-
-table.pricing-table tbody td {
-	font-size: 14px !important;
-}
-
-table.pricing-table thead {
+#modules {
+	padding: 60px 0;
 	border-top: 1px solid #e8e8e8;
 	border-bottom: 1px solid #e8e8e8;
 }
 
-table.pricing-table thead td {
-	padding: 20px;
+#modules .title-area {
+	margin-bottom: 50px;
 }
 
-table.pricing-table thead td:not(.first),
-table.pricing-table td:not(:first-child) {
-	text-align: center;
-}
-
-table.pricing-table td {
-	width: 18.75%;
-	text-transform: capitalize;
-	padding: 15px 20px;
-	font-weight: 500;
-}
-
-table.pricing-table td:first-child {
+#modules .grid-h {
 	display: flex;
-	width: 100%;
-	align-items: center;
-	flex-direction: row;
+	align-items: flex-start;
 	justify-content: space-between;
 }
 
-table.pricing-table td:first-child .lnr {
-	font-size: 13px;
-	background-color: #e2dede;
-	border-radius: 100px;
+#modules .grid-h.row-reverse {
+	flex-direction: row-reverse;
+	padding: 100px 0;
 }
 
-table.pricing-table .first {
-	font-size: 18px;
-	width: 25%;
+#modules .grid-h .left,
+#modules .grid-h .right {
+	max-width: 45%;
 }
 
-table.pricing-table td .lnr-checkmark-circle {
-	color: #369836;
+#modules .grid-h span {
+	font-size: 1.4em;
 }
 
-table.pricing-table td .lnr-cross-circle {
-	color: #bd362f;
+#modules .grid-h h2 {
+	margin-bottom: 5px;
 }
 
-table.pricing-table td .lnr-question-circle:hover {
-	cursor: pointer;
-}
-
-/*END PLANS COMPARISON TABLE*/
-/*MODULES*/
-
-.orange-bubble {
-	position: absolute;
-	right: 28%;
-}
-
-#modules {
-	padding: 60px 0 20px 0;
-	background-color: #fff;
-	border-top: 1px solid #e8e8e8;
-}
-
-#modules .box {
-	box-shadow: 0 0 30px #d8dce0;
-	border: none;
-}
-
-#modules .box-wrapper {
-	height: 70%;
-	position: relative;
-}
-
-#modules .box.right {
-	position: sticky;
-	top: 30px;
-}
-
-#modules .box button {
-	width: 100%;
-}
-
-#modules .title-area {
-	margin-bottom: 35px;
-}
-
-#modules .title-area h3 {
-	font-size: 16px;
-	font-weight: bold;
-}
-
-#modules .module-wrapper label {
-	display: flex;
-	font-weight: 100;
-	cursor: pointer;
-	margin-bottom: 15px;
-}
-
-#modules .module-wrapper label:last-child {
-	margin-bottom: 0;
-}
-
-#modules .module-wrapper label span {
-	font-weight: bold;
-	display: block;
-}
-
-#modules .module-wrapper input {
-	margin-right: 10px;
-	min-width: 18px;
-	height: 18px;
+#modules .grid-h p.sub-h2 {
+	color: #58708d;
+	font-size: 15px;
+	letter-spacing: 0.54px;
+	line-height: 22px;
+	margin-top: 20px;
 }
 
 /*END MODULES*/
 /*TESTIMONIALS*/
 #testimonials {
-	padding: 80px 0;
+	padding: 60px 0;
 	position: relative;
 }
 
@@ -708,7 +540,7 @@ table.pricing-table td .lnr-question-circle:hover {
 
 #contact {
 	position: relative;
-	padding: 80px 0;
+	padding: 60px 0 80px 0;
 }
 
 #contact .container img {
