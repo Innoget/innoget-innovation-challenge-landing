@@ -317,7 +317,7 @@ a:hover {
 /*PRICING TABLE*/
 
 #intro-modules {
-	padding: 60px 0;
+	padding: 80px 0;
 }
 
 #intro-modules .intro-modules-wrapper {
@@ -421,46 +421,47 @@ a:hover {
 /*END PRICING TABLE*/
 /*MODULES*/
 
-#modules {
-	padding: 60px 0;
+.module {
+	padding: 100px 0 80px 0;
 	border-top: 1px solid #e8e8e8;
 	border-bottom: 1px solid #e8e8e8;
 }
 
-#modules .title-area {
-	margin-bottom: 50px;
-}
-
-#modules .grid-h {
+.grid-h {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: space-between;
 }
 
-#modules .grid-h.row-reverse {
+.grid-h.row-reverse {
 	flex-direction: row-reverse;
-	padding: 100px 0;
 }
 
-#modules .grid-h .left,
-#modules .grid-h .right {
-	max-width: 45%;
+.grid-h.row-reverse .right,
+.grid-h .left {
+	max-width: 60%;
 }
 
-#modules .grid-h span {
+.grid-h.row-reverse .right,
+.grid-h .right {
+	max-width: 35%;
+}
+
+.grid-h span {
 	font-size: 1.4em;
 }
 
-#modules .grid-h h2 {
+.grid-h h2 {
 	margin-bottom: 5px;
+	margin-top: 0;
 }
 
-#modules .grid-h p.sub-h2 {
+.grid-h p.sub-h2 {
 	color: #58708d;
 	font-size: 15px;
 	letter-spacing: 0.54px;
 	line-height: 22px;
-	margin-top: 20px;
+	margin: 20px 0;
 }
 
 /*END MODULES*/
@@ -528,7 +529,12 @@ a:hover {
 
 #testimonials .logos .grid-h {
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
+}
+
+#testimonials .logos .grid-h img {
+	max-width: 120px;
+	margin: 8px;
 }
 
 #testimonials .buttons .btn:last-child {

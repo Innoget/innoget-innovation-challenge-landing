@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1071px" height="659px" viewBox="0 0 1071 659" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="863" height="493" rx="10"></rect>
+        <filter x="-7.4%" y="-12.6%" width="114.8%" height="126.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.62745098   0 0 0 0 0.682352941   0 0 0 0 0.752941176  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="598" height="478" rx="10"></rect>
+        <filter x="-10.7%" y="-13.0%" width="121.4%" height="126.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.62745098   0 0 0 0 0.682352941   0 0 0 0 0.752941176  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-3" transform="translate(-125.000000, -144.000000)">
+            <g id="Group-3" transform="translate(167.000000, 114.000000)">
+                <g id="Group" transform="translate(265.000000, 470.000000) rotate(-51.000000) translate(-265.000000, -470.000000) translate(105.000000, 310.000000)" opacity="0.571823847">
+                    <polygon id="Path" points="0 0 320 0 320 320 0 320"></polygon>
+                    <circle id="Oval" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" cx="160" cy="160" r="40"></circle>
+                    <path d="M159.5,280.435 L159.5,280.565" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M39.5,120.435 L39.5,120.565" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M279.5,120.435 L279.5,120.565" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M107,268 C69.8321214,249.897859 44.5446262,214.042456 40,173" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M213,268 C250.167879,249.897859 275.455374,214.042456 280,173" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M83,67 C127.208058,31 190.791942,31 235,67" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Group-Copy-4" transform="translate(848.500000, 160.500000) rotate(37.000000) translate(-848.500000, -160.500000) translate(734.000000, 46.000000)" opacity="0.571823847">
+                    <polygon id="Path" points="0.905361575 0.40033452 228.905362 0.40033452 228.905362 228.400335 0.905361575 228.400335"></polygon>
+                    <circle id="Oval" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" cx="115.003772" cy="113.700109" r="28.5"></circle>
+                    <path d="M114.999962,200.055341 L114.999962,200.145341" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M28.9404136,85.8504627 L28.9404136,85.9404627" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M200.340426,85.6612621 L200.340426,85.7512621" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M77.2022533,191.140555 C50.5745193,178.183233 32.4581048,152.518312 29.2022533,123.140555" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M152.80148,190.659895 C179.429214,177.702573 197.545629,152.037653 200.80148,122.659895" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M59.8323356,47.7025746 C91.2433241,22.3692413 136.421347,22.3692413 167.832336,47.7025746" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Sub-Organizations" transform="translate(0.000000, 70.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle" fill="#FFFFFF" x="168" y="203" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy" fill="#E9EDF1" x="168" y="238" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="168" y="273" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#E9EDF1" x="168" y="308" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#FFFFFF" x="168" y="343" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#E9EDF1" x="168" y="378" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#1D7CEE" x="168" y="428" width="129" height="35" rx="17.5"></rect>
+                    <text id="Name-and-Surname" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#0C3566">
+                        <tspan x="178" y="225">Name and Surname</tspan>
+                    </text>
+                    <text id="louse.l@domain.com" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="320" y="260">louse.l@domain.com</tspan>
+                    </text>
+                    <text id="Louise-Long" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="178" y="260">Louise Long</tspan>
+                    </text>
+                    <text id="2020-09-07" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="519" y="260">2020-09-07</tspan>
+                    </text>
+                    <text id="Manage" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="260">Manage</tspan>
+                    </text>
+                    <text id="c.chambers@domain.co" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="320" y="295">c.chambers@domain.com</tspan>
+                    </text>
+                    <text id="Carolyn-Chambers" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="178" y="295">Carolyn Chambers</tspan>
+                    </text>
+                    <text id="2020-08-03" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="519" y="295">2020-08-03</tspan>
+                    </text>
+                    <text id="Manage-Copy" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="295">Manage</tspan>
+                    </text>
+                    <text id="g.stevens@domain.com" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="320" y="330">g.stevens@domain.com</tspan>
+                    </text>
+                    <text id="Guy-Stevens" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="178" y="330">Guy Stevens</tspan>
+                    </text>
+                    <text id="2020-06-22" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="519" y="330">2020-06-22</tspan>
+                    </text>
+                    <text id="Manage-Copy-2" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="330">Manage</tspan>
+                    </text>
+                    <text id="brandie.p@domain.com" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="320" y="365">brandie.p@domain.com</tspan>
+                    </text>
+                    <text id="Brandie-Perkins" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="178" y="365">Brandie Perkins</tspan>
+                    </text>
+                    <text id="2020-06-18" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="519" y="365">2020-06-18</tspan>
+                    </text>
+                    <text id="Manage-Copy-3" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="365">Manage</tspan>
+                    </text>
+                    <text id="gertrude.sutton@doma" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="320" y="400">gertrude.sutton@domain.com</tspan>
+                    </text>
+                    <text id="Create-manager" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="181.982" y="450">Create manager</tspan>
+                    </text>
+                    <text id="Gertrude-Sutton" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="178" y="400">Gertrude Sutton</tspan>
+                    </text>
+                    <text id="2020-04-12" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="519" y="400">2020-04-12</tspan>
+                    </text>
+                    <text id="Manage-Copy-4" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="400">Manage</tspan>
+                    </text>
+                    <text id="Email-Address" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#0C3566">
+                        <tspan x="320" y="225">Email Address</tspan>
+                    </text>
+                    <text id="Invitation-Date" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#0C3566">
+                        <tspan x="519" y="225">Invitation Date</tspan>
+                    </text>
+                    <text id="Accepted" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="639" y="260">Accepted</tspan>
+                    </text>
+                    <text id="Accepted" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="639" y="295">Accepted</tspan>
+                    </text>
+                    <text id="Accepted" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="639" y="330">Accepted</tspan>
+                    </text>
+                    <text id="Accepted" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="639" y="365">Accepted</tspan>
+                    </text>
+                    <text id="Accepted" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="639" y="400">Accepted</tspan>
+                    </text>
+                    <text id="Status" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#0C3566">
+                        <tspan x="639" y="225">Status</tspan>
+                    </text>
+                    <text id="Platform-Managers" font-family="Raleway-Bold, Raleway" font-size="16" font-weight="bold" fill="#0C3566">
+                        <tspan x="30" y="45">Platform Managers</tspan>
+                    </text>
+                    <text id="Set-one-or-several-m" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" fill="#58708D">
+                        <tspan x="30" y="65">Set one or several managers to review and manage the content and members </tspan>
+                        <tspan x="30" y="79">related to their working groups and sub-organizations:</tspan>
+                    </text>
+                    <text id="Administrate-manager" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                        <tspan x="60.654" y="214"> Administrate </tspan>
+                        <tspan x="82.284" y="232">managers</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="168" y="100" width="303" height="35" rx="8"></rect>
+                    <text id="Me-and-other-users-a" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="122">Me and other users are managers</tspan>
+                    </text>
+                    <g id="Group" transform="translate(451.000000, 113.000000)">
+                        <polygon id="Path" points="0 0 10 0 10 10 0 10"></polygon>
+                        <polyline id="Path" stroke="#0C3566" stroke-linecap="round" stroke-linejoin="round" points="3 4 5.5 7 8 4"></polyline>
+                    </g>
+                    <text id="Set-the-managers-Copy" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                        <tspan x="97.726" y="113"> Set the </tspan>
+                        <tspan x="82.284" y="131">managers</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="168" y="150" width="303" height="35" rx="8"></rect>
+                    <text id="One-post,-several-ma" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="172">One post, several managers</tspan>
+                    </text>
+                    <g id="Group-Copy" transform="translate(451.000000, 163.000000)">
+                        <polygon id="Path" points="0 0 10 0 10 10 0 10"></polygon>
+                        <polyline id="Path" stroke="#0C3566" stroke-linecap="round" stroke-linejoin="round" points="3 4 5.5 7 8 4"></polyline>
+                    </g>
+                    <text id="Content-assignment" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                        <tspan x="95.416" y="163">Content</tspan>
+                        <tspan x="71.798" y="181">assignment</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(389.000000, 167.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <rect id="Rectangle-Copy-5" fill="#E9EDF1" x="168" y="191" width="415" height="95" rx="8"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#1D7CEE" x="484" y="428" width="99" height="35" rx="17.5"></rect>
+                    <text id="Fraunhofer-Leichtbau" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="213">Fraunhofer-Leichtbau</tspan>
+                        <tspan x="178" y="228">Luxembourg Institute of Science and Technology</tspan>
+                        <tspan x="178" y="243">Autoklastr</tspan>
+                        <tspan x="178" y="258">LIT Factory (University of Linz)</tspan>
+                        <tspan x="178" y="273">NTNU</tspan>
+                    </text>
+                    <text id="Send-invite" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="499.2445" y="450">Send invite</tspan>
+                    </text>
+                    <text id="Create-a-new-manager" font-family="Raleway-Bold, Raleway" font-size="16" font-weight="bold" fill="#0C3566">
+                        <tspan x="30" y="35">Create a new manager</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-9" fill="#E9EDF1" x="168" y="90" width="415" height="35" rx="8"></rect>
+                    <text id="Type-their-name-and" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="112">Type their name and lastname</tspan>
+                    </text>
+                    <text id="Name-and-lastname" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                        <tspan x="79.89" y="102">Name and</tspan>
+                        <tspan x="87.17" y="120">lastname</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="168" y="302" width="415" height="35" rx="8"></rect>
+                    <text id="All" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="324">All</tspan>
+                    </text>
+                    <text id="Areas-of-interest-to" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                        <tspan x="40.34" y="314">Areas of interest</tspan>
+                        <tspan x="77.426" y="332">to manage</tspan>
+                    </text>
+                    <text id="The-manager-will-be" font-family="Raleway-Bold, Raleway" font-size="12" font-weight="bold" fill="#A0AEC0">
+                        <tspan x="168" y="375">The manager will be granted access to the management of members </tspan>
+                        <tspan x="168" y="389">related to their working groups and sub-organizations</tspan>
+                    </text>
+                    <g id="Group" transform="translate(563.000000, 315.000000)">
+                        <polygon id="Path" points="0 0 10 0 10 10 0 10"></polygon>
+                        <polyline id="Path" stroke="#0C3566" stroke-linecap="round" stroke-linejoin="round" points="3 4 5.5 7 8 4"></polyline>
+                    </g>
+                    <text id="Community-management" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                        <tspan x="71.742" y="365">Community</tspan>
+                        <tspan x="59.884" y="383">management</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-10" fill="#E9EDF1" x="168" y="141" width="415" height="35" rx="8"></rect>
+                    <text id="Type-their-email" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="163">Type their email</tspan>
+                    </text>
+                    <text id="Email-address" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                        <tspan x="55.516" y="153">Email address</tspan>
+                    </text>
+                    <text id="Sub-organizations-to" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                        <tspan x="28.608" y="204">Sub-organizations </tspan>
+                        <tspan x="77.426" y="222">to manage</tspan>
+                    </text>
+                    <path d="M0,59 L598,59" id="Line" stroke="#E8E8E8" stroke-linecap="square"></path>
+                    <path d="M0,413 L598,413" id="Line-Copy" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

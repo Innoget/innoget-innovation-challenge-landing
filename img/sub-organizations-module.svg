@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1113px" height="647px" viewBox="0 0 1113 647" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="863" height="390" rx="10"></rect>
+        <filter x="-7.4%" y="-15.9%" width="114.8%" height="132.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.62745098   0 0 0 0 0.682352941   0 0 0 0 0.752941176  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="431" y="287" width="598" height="346" rx="10"></rect>
+        <filter x="-10.7%" y="-17.9%" width="121.4%" height="137.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.62745098   0 0 0 0 0.682352941   0 0 0 0 0.752941176  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-125.000000, -144.000000)">
+            <g id="Group-7" transform="translate(167.000000, 114.000000)">
+                <g id="Group" transform="translate(265.000000, 470.000000) rotate(-51.000000) translate(-265.000000, -470.000000) translate(105.000000, 310.000000)" opacity="0.571823847">
+                    <polygon id="Path" points="0 0 320 0 320 320 0 320"></polygon>
+                    <circle id="Oval" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" cx="160" cy="160" r="40"></circle>
+                    <path d="M159.5,280.435 L159.5,280.565" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M39.5,120.435 L39.5,120.565" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M279.5,120.435 L279.5,120.565" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M107,268 C69.8321214,249.897859 44.5446262,214.042456 40,173" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M213,268 C250.167879,249.897859 275.455374,214.042456 280,173" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M83,67 C127.208058,31 190.791942,31 235,67" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Group-Copy-4" transform="translate(848.500000, 160.500000) rotate(37.000000) translate(-848.500000, -160.500000) translate(734.000000, 46.000000)" opacity="0.571823847">
+                    <polygon id="Path" points="0.905361575 0.40033452 228.905362 0.40033452 228.905362 228.400335 0.905361575 228.400335"></polygon>
+                    <circle id="Oval" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" cx="115.003772" cy="113.700109" r="28.5"></circle>
+                    <path d="M114.999962,200.055341 L114.999962,200.145341" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M28.9404136,85.8504627 L28.9404136,85.9404627" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M200.340426,85.6612621 L200.340426,85.7512621" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M77.2022533,191.140555 C50.5745193,178.183233 32.4581048,152.518312 29.2022533,123.140555" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M152.80148,190.659895 C179.429214,177.702573 197.545629,152.037653 200.80148,122.659895" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M59.8323356,47.7025746 C91.2433241,22.3692413 136.421347,22.3692413 167.832336,47.7025746" id="Path" stroke="#A0AEC0" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <g id="Sub-Organizations" transform="translate(0.000000, 70.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle" fill="#FFFFFF" x="168" y="100" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy" fill="#E9EDF1" x="168" y="135" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="168" y="170" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-3" fill="#E9EDF1" x="168" y="205" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-4" fill="#FFFFFF" x="168" y="240" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-5" fill="#E9EDF1" x="168" y="275" width="665" height="35" rx="8"></rect>
+                    <rect id="Rectangle-Copy-7" fill="#1D7CEE" x="168" y="325" width="178" height="35" rx="17.5"></rect>
+                    <text id="Organization" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#0C3566">
+                        <tspan x="178" y="122">Organization</tspan>
+                    </text>
+                    <text id="Fraunhofer-Leichtbau" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="157">Fraunhofer-Leichtbau</tspan>
+                    </text>
+                    <text id="Louise-Long" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="383" y="157">Louise Long</tspan>
+                    </text>
+                    <text id="2020-09-07" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="569" y="157">2020-09-07</tspan>
+                    </text>
+                    <text id="Manage" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="157">Manage</tspan>
+                    </text>
+                    <text id="Luxembourg-Institute" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="192">Luxembourg Institute of Scien…</tspan>
+                    </text>
+                    <text id="Carolyn-Chambers" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="383" y="192">Carolyn Chambers</tspan>
+                    </text>
+                    <text id="2020-08-03" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="569" y="192">2020-08-03</tspan>
+                    </text>
+                    <text id="Manage-Copy" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="192">Manage</tspan>
+                    </text>
+                    <text id="Autoklastr" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="227">Autoklastr</tspan>
+                    </text>
+                    <text id="Guy-Stevens" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="383" y="227">Guy Stevens</tspan>
+                    </text>
+                    <text id="2020-06-22" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="569" y="227">2020-06-22</tspan>
+                    </text>
+                    <text id="Manage-Copy-2" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="227">Manage</tspan>
+                    </text>
+                    <text id="LIT-Factory-(Univers" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="262">LIT Factory (University of Linz)</tspan>
+                    </text>
+                    <text id="Brandie-Perkins" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="383" y="262">Brandie Perkins</tspan>
+                    </text>
+                    <text id="2020-06-18" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="569" y="262">2020-06-18</tspan>
+                    </text>
+                    <text id="Manage-Copy-3" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="262">Manage</tspan>
+                    </text>
+                    <text id="NTNU" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="178" y="297">NTNU</tspan>
+                    </text>
+                    <text id="Create-sub-organizat" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="182.022" y="347">Create sub-organization</tspan>
+                    </text>
+                    <text id="Gertrude-Sutton" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="383" y="297">Gertrude Sutton</tspan>
+                    </text>
+                    <text id="2020-04-12" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                        <tspan x="569" y="297">2020-04-12</tspan>
+                    </text>
+                    <text id="Manage-Copy-4" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#1D7CEE">
+                        <tspan x="751" y="297">Manage</tspan>
+                    </text>
+                    <text id="Manager" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#0C3566">
+                        <tspan x="383" y="122">Manager</tspan>
+                    </text>
+                    <text id="Creation-Date" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#0C3566">
+                        <tspan x="569" y="122">Creation Date</tspan>
+                    </text>
+                    <text id="Platform-Sub-Organiz" font-family="Raleway-Bold, Raleway" font-size="16" font-weight="bold" fill="#0C3566">
+                        <tspan x="30" y="45">Platform Sub-Organizations</tspan>
+                    </text>
+                    <text id="Sub-organizations-al" font-family="Raleway-SemiBold, Raleway" font-size="12" font-weight="500" fill="#58708D">
+                        <tspan x="30" y="65">Sub-organizations allow you to group platform members and content related </tspan>
+                        <tspan x="30" y="79">to the same sub-organization and be managed by the assigned manager:</tspan>
+                    </text>
+                    <text id="Administrate-sub-org" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                        <tspan x="30.68" y="111">Administrate sub-</tspan>
+                        <tspan x="60.192" y="129">organizations</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <rect id="Rectangle-Copy" fill="#E9EDF1" x="599" y="377" width="320" height="35" rx="8"></rect>
+                <rect id="Rectangle-Copy-5" fill="#E9EDF1" x="599" y="427" width="320" height="111" rx="8"></rect>
+                <rect id="Rectangle-Copy-7" fill="#1D7CEE" x="939" y="583" width="70" height="35" rx="17.5"></rect>
+                <text id="Type-the-name-of-the" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                    <tspan x="609" y="399">Type the name of the sub-organization</tspan>
+                </text>
+                <text id="Louse-Long-Carolyn-C" font-family="Raleway-Medium, Raleway" font-size="13" font-weight="400" fill="#0C3566">
+                    <tspan x="609" y="449">Louse Long</tspan>
+                    <tspan x="609" y="464">Carolyn Chamgers</tspan>
+                    <tspan x="609" y="479">Guy Stevens</tspan>
+                    <tspan x="609" y="494">Brandie Perkins</tspan>
+                    <tspan x="609" y="509">Gertrude Sutton</tspan>
+                </text>
+                <text id="Create" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="953.0115" y="605">Create</tspan>
+                </text>
+                <text id="Create-a-new-sub-org" font-family="Raleway-Bold, Raleway" font-size="16" font-weight="bold" fill="#0C3566">
+                    <tspan x="461" y="322">Create a new sub-organization</tspan>
+                </text>
+                <text id="Administrate-sub-org" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                    <tspan x="461.68" y="389">Administrate sub-</tspan>
+                    <tspan x="491.192" y="407">organizations</tspan>
+                </text>
+                <text id="Assign-a-manager" font-family="Raleway-Medium, Raleway" font-size="14" font-weight="400" line-spacing="18" fill="#0C3566">
+                    <tspan x="461.834" y="440">Assign a manager</tspan>
+                </text>
+                <path d="M431,346 L1029,346" id="Line" stroke="#E8E8E8" stroke-linecap="square"></path>
+                <path d="M431,568 L1029,568" id="Line-Copy" stroke="#E8E8E8" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
