@@ -1,4 +1,15 @@
 /*GENERAL STYLES*/
+#overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	background: #ffffff;
+	z-index: 10000;
+}
+
 .plans-top-wrapper {
 	background-color: #ffffff;
 }
@@ -645,41 +656,76 @@ footer ul li {
 		margin-bottom: 8px;
 		margin-top: 0px;
 	}
-	.plans .container-fluid .row .pricing-table {
-		flex-direction: column;
-		margin: 0 15px;
-	}
-	.plans .container-fluid .pricing-table .item {
+	.buttons a {
 		width: 100%;
+		margin: 0 0 15px 0 !important;
 	}
-	.plans .container-fluid .pricing-table .border-r,
-	.testimonials .container .border-r {
-		border-right: 0;
+	#intro-modules .intro-modules-wrapper {
+		flex-direction: column;
 	}
-	.plans .container-fluid .pricing-table .box {
-		margin-bottom: 10px;
-		border-bottom: 1px solid #e8e8e8;
+	#intro-modules .intro-modules-wrapper .col-left,
+	#intro-modules .intro-modules-wrapper .col-right {
+		width: 100%;
+		margin: 0 0 20px 0;
 	}
-	.plans .container-fluid .pricing-table .box .header .right {
-		min-width: 170px;
-		text-align: right;
-		padding-right: 10px;
+
+	#intro-modules .intro-modules-wrapper .col-right {
+		margin-bottom: 0;
 	}
-	.testimonials .content .content-inner .business-case {
-		padding: 0;
-		margin-top: 30px;
+	#intro-modules .intro-modules-wrapper .col-center {
+		display: none;
 	}
-	.comp-table .content .overflow-mod {
-		overflow: scroll;
-	}
-	.contact .text-right {
+	#intro-modules .intro-modules-wrapper .module-box {
+		right: 0 !important;
+		left: 0 !important;
+		flex-direction: row !important;
 		text-align: left;
 	}
-	.contact .container .box {
+	#intro-modules .intro-modules-wrapper .icon-module {
+		margin-right: 25px !important;
+		margin-left: 0 !important;
+	}
+	.module .grid-h {
+		flex-direction: column;
+	}
+	.module .grid-h .left,
+	.module .grid-h .right {
+		max-width: 100% !important;
+	}
+	.module .grid-h img {
+		margin-bottom: 30px;
+	}
+	.module .grid-h a {
+		width: 100%;
+	}
+	#contact .text-right {
+		text-align: left;
+	}
+	#contact .container .box {
 		margin: 0;
 	}
-	.contact .container img {
-		right: 20px;
+	#contact .container img {
+		right: 80px !important;
+	}
+	#testimonials .carousel-inner {
+		padding: 30px 45px;
+	}
+	#testimonials .item .item-wrapper {
+		flex-direction: column;
+		width: 100%;
+		margin: 0;
+	}
+	#testimonials .testimonials-wrapper .item .left {
+		margin-bottom: 20px;
+	}
+	#testimonials .testimonials-wrapper .item .left img {
+		height: 180px;
+	}
+	footer .grid-h {
+		flex-direction: column;
+	}
+	footer .grid-h .grid-item {
+		width: 100%;
 	}
 }
 
