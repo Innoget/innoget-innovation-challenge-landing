@@ -1,18 +1,21 @@
 <html lang="en">
 	<head>
-		<title>Modules | InnogetCloud</title>
+		<title>Open Innovation Challenge Software - Innoget</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="title" content="Modules | InnogetCloud" />
+		<meta name="title" content="Open Innovation Challenge Software - Innoget" />
 		<meta
 			name="description"
-			content="InnogetCloud, the trusted open innovation software to connect everyone in your innovation ecosystem online"
+			content="Launch your open innovation challenge with Innoget, the partner of choice for open innovation services"
 		/>
 		<meta name="robots" content="index, follow" />
-		<meta property="og:title" content="Modules | InnogetCloud" />
+		<meta
+			property="og:title"
+			content="Open Innovation Challenge Software - Innoget"
+		/>
 		<meta
 			property="og:description"
-			content="InnogetCloud, the trusted open innovation software to connect everyone in your innovation ecosystem online"
+			content="Launch your open innovation challenge with Innoget, the partner of choice for open innovation services"
 		/>
 		<meta property="og:image" content="img/og-image.png" />
 		<link rel="icon" href="./img/favicon.png" />
@@ -31,6 +34,45 @@
 		<link rel="stylesheet" type="text/css" href="./css/navbar-offpage.css" />
 		<link rel="stylesheet" type="text/css" href="./css/stylesheet-plans.css" />
 		<link rel="stylesheet" type="text/css" href="./css/stylesheet-global.css" />
+
+		<script
+			type="text/javascript"
+			src="https://www.gstatic.com/charts/loader.js"
+		></script>
+		<script type="text/javascript">
+			google.charts.load("current", {
+				packages: ["geochart"],
+				mapsApiKey: "AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY",
+			});
+			google.charts.setOnLoadCallback(drawRegionsMap);
+
+			function drawRegionsMap() {
+				var data = google.visualization.arrayToDataTable([
+					["Region code", "Continent", "Region of origin (%)"],
+					["150", "Europe", 44],
+					["019", "Americas", 32],
+					["142", "Asia", 22],
+					["009", "Oceania", 22],
+					["002", "Africa", 2],
+				]);
+
+				var options = {
+					region: "world",
+					resolution: "continents",
+					legend: "none",
+					colorAxis: {
+						minValue: 0,
+						colors: ["#B6CCE7", "#1D7CEE"],
+					},
+				};
+
+				var chart = new google.visualization.GeoChart(
+					document.getElementById("regions_div")
+				);
+
+				chart.draw(data, options);
+			}
+		</script>
 	</head>
 	<body>
 		<div id="overlay"></div>
@@ -57,10 +99,9 @@
 							>
 								<img
 									class="img-responsive"
-									alt="Logo InnogetCloud"
-									src="./img/logo-innogetcloud-l.svg"
+									alt="Logo Innoget"
+									src="./img/innoget-logo-full.svg"
 								/>
-								<span>from Innoget</span>
 							</a>
 						</div>
 						<div
@@ -70,10 +111,10 @@
 							<div class="navbar-right">
 								<ul class="nav navbar-nav">
 									<li class="item">
-										<a href="#" title="">Modules</a>
+										<a href="#modules" title="">Modules</a>
 									</li>
 									<li class="item">
-										<a href="#" title="">Clients</a>
+										<a href="#testimonials" title="">Clients</a>
 									</li>
 									<li class="item">
 										<a
@@ -96,453 +137,253 @@
 			<section id="header" class="bg-white">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-2"></div>
-						<div class="col-sm-8">
-							<div class="header text-center">
-								<h1>
-									The modular open innovation software<br />that adapts to your
-									needs
-								</h1>
-								<p class="sub-h1">
-									InnogetCloud is the cloud platform with the perfect
-									combination of tools to efficiently create, customize, manage
-									and scale your own open innovation network.
+						<div class="col-sm-12">
+							<div class="header">
+								<div class="left">
+									<h1>Launch your Open Innovation Challenge with Innoget</h1>
+									<p class="sub-h1">
+										Global companies trust Innoget to easily build, manage and
+										market their Open Innovation Challenges<br />
+										to accelerate innovation.
+									</p>
+									<div class="buttons">
+										<a href="#" title="Book a demo" class="btn btn-blue btn-l"
+											>Book a demo</a
+										>
+										<a
+											href="#"
+											title="Download marketing deck"
+											class="btn btn-l"
+											>Download marketing deck</a
+										>
+									</div>
+									<div class="right"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="testimonials">
+								<div class="title-area text-center">
+									<h3>Trusted by leading innovators worldwide</h3>
+								</div>
+								<div class="t-grid">
+									<img src="./img/logo-pepsico.png" class="img-responsive" />
+									<img src="./img/logo-clariant.png" class="img-responsive" />
+									<img src="./img/logo-basf.png" class="img-responsive" />
+									<img src="./img/logo-bmw.png" class="img-responsive" />
+									<img src="./img/logo-beiersdorf.png" class="img-responsive" />
+									<img src="./img/logo-electrolux.png" class="img-responsive" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="co-branded-challenge bg-white">
+				<div class="container">
+					<div class="row">
+						<div class="title-area">
+							<h2>
+								The most complete solution <br />
+								to make your Open Innovation Challenge <br />a success
+							</h2>
+							<h3 class="blue">
+								Fully co-branded<br />
+								Open Innovation Challenge<br />
+								webiste
+							</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="wrapper">
+							<div class="perks-list">
+								<div class="perk">
+									<p>
+										100% custom webiste following your own corporate guidelines.
+										Launch your Open Innovation Challenge without depending on
+										your IT department.
+									</p>
+								</div>
+								<div class="perk">
+									<p>
+										Fully responsive design for tablets and smartphones; we use
+										the latest technologies to maximize engagement and
+										usability.
+									</p>
+								</div>
+								<div class="perk">
+									<p>
+										Clear copies and call-to-actions to effectively communicate
+										the challenge and rise participants' interest.
+									</p>
+								</div>
+							</div>
+
+							<div class="media">
+								<img
+									src="./img/custom-landing-module.svg"
+									alt="Co-branded Open Innovation Challenge Website"
+									class="img-responsive"
+								/>
+							</div>
+
+							<div class="perks-list">
+								<div class="perk">
+									<p>
+										Platform integration with Innoget to easily reach a global
+										network of potential participants and effectively
+										communicate the Open Innovation Challenge both online and
+										offline.
+									</p>
+								</div>
+								<div class="perk">
+									<p>
+										Set up of custom submission forms so that interested
+										participants easily submit proposals to the available Open
+										Innovation Challenge topics.
+									</p>
+								</div>
+								<div class="perk">
+									<p>
+										Rely on our dedicated team of experts to design, build and
+										support your next Open Innovation Challenge.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="wrapper perk-blocks">
+							<div class="perk-block">
+								<h3 class="blue">Online launch webinar and registrations</h3>
+								<p>
+									Set up of an online launch webinar to communicate the
+									challenge to your defined audience:
 								</p>
+								<ul>
+									<li>
+										Integration of the webinar into your Open Innovation
+										Challenge website to improve engagement and boost
+										registrations
+									</li>
+									<li>
+										Data sharing between Innoget and you to provide interested
+										participants with access to the webinar as well as to
+										provide additional materials
+									</li>
+									<li>
+										Dedicated webinar online promotion and and post-webinar
+										follow-up
+									</li>
+								</ul>
 							</div>
-						</div>
-						<div class="col-sm-2"></div>
-					</div>
-				</div>
-			</section>
-			<section id="intro-modules" class="bg-white">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="intro-modules-wrapper">
-								<div class="col-left text-right">
-									<div class="module-box">
-										<div class="icon-module">
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												class="icon icon-tabler icon-tabler-user"
-												width="25"
-												height="25"
-												viewBox="0 0 24 24"
-												stroke-width="2"
-												stroke="#ffffff"
-												fill="none"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											>
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<circle cx="12" cy="7" r="4" />
-												<path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-											</svg>
-										</div>
-										<div class="text">
-											<h3>User Profile</h3>
-											<p>Professional profile for each network member</p>
-										</div>
-									</div>
-									<div class="module-box">
-										<div class="icon-module">
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												class="icon icon-tabler icon-tabler-refresh"
-												width="25"
-												height="25"
-												viewBox="0 0 24 24"
-												stroke-width="2"
-												stroke="#ffffff"
-												fill="none"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											>
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -5v5h5" />
-												<path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 5v-5h-5" />
-											</svg>
-										</div>
-										<div class="text">
-											<h3>Innoget Sync</h3>
-											<p>
-												Import and export global opportunities to reach out a
-												wider audience with Innoget.com
-											</p>
-										</div>
-									</div>
-									<div class="module-box">
-										<div class="icon-module">
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												class="icon icon-tabler icon-tabler-atom-2"
-												width="25"
-												height="25"
-												viewBox="0 0 24 24"
-												stroke-width="2"
-												stroke="#ffffff"
-												fill="none"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											>
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<circle cx="12" cy="12" r="3" />
-												<line x1="12" y1="21" x2="12" y2="21.01" />
-												<line x1="3" y1="9" x2="3" y2="9.01" />
-												<line x1="21" y1="9" x2="21" y2="9.01" />
-												<path d="M8 20.1a9 9 0 0 1 -5 -7.1" />
-												<path d="M16 20.1a9 9 0 0 0 5 -7.1" />
-												<path d="M6.2 5a9 9 0 0 1 11.4 0" />
-											</svg>
-										</div>
-										<div class="text">
-											<h3>Sub-organizations</h3>
-											<p>
-												Create independent entities to easily group related
-												content and network members
-											</p>
-										</div>
-									</div>
-									<div class="module-box">
-										<div class="icon-module">
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												class="icon icon-tabler icon-tabler-settings"
-												width="25"
-												height="25"
-												viewBox="0 0 24 24"
-												stroke-width="2"
-												stroke="#ffffff"
-												fill="none"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											>
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<path
-													d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z"
-												/>
-												<circle cx="12" cy="12" r="3" />
-											</svg>
-										</div>
-										<div class="text">
-											<h3>Management Tools</h3>
-											<p>
-												Set up the tool according to your needs and assign
-												managers to delegate tasks
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-center">
-									<div class="bubble">
-										<img
-											class="img-responsive"
-											src="./img/icon-cloud.svg"
-											alt="InnogetCloud Logo"
-										/>
-									</div>
-								</div>
-								<div class="col-right">
-									<div class="module-box">
-										<div class="icon-module">
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												class="icon icon-tabler icon-tabler-building"
-												width="25"
-												height="25"
-												viewBox="0 0 24 24"
-												stroke-width="2"
-												stroke="#ffffff"
-												fill="none"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											>
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<line x1="3" y1="21" x2="21" y2="21" />
-												<line x1="9" y1="8" x2="10" y2="8" />
-												<line x1="9" y1="12" x2="10" y2="12" />
-												<line x1="9" y1="16" x2="10" y2="16" />
-												<line x1="14" y1="8" x2="15" y2="8" />
-												<line x1="14" y1="12" x2="15" y2="12" />
-												<line x1="14" y1="16" x2="15" y2="16" />
-												<path
-													d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16"
-												/>
-											</svg>
-										</div>
-										<div class="text">
-											<h3>Organization Profile</h3>
-											<p>Organization profile for each network entity</p>
-										</div>
-									</div>
-									<div class="module-box">
-										<div class="icon-module">
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												class="icon icon-tabler icon-tabler-trophy"
-												width="25"
-												height="25"
-												viewBox="0 0 24 24"
-												stroke-width="2"
-												stroke="#ffffff"
-												fill="none"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											>
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<line x1="8" y1="21" x2="16" y2="21" />
-												<line x1="12" y1="17" x2="12" y2="21" />
-												<line x1="7" y1="4" x2="17" y2="4" />
-												<path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
-												<circle cx="5" cy="9" r="2" />
-												<circle cx="19" cy="9" r="2" />
-											</svg>
-										</div>
-										<div class="text">
-											<h3>Innovation Collaboration</h3>
-											<p>
-												Pre-defined forms to list innovation, research and
-												funding opportunities to foster cooperation
-											</p>
-										</div>
-									</div>
-									<div class="module-box">
-										<div class="icon-module">
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												class="icon icon-tabler icon-tabler-palette"
-												width="25"
-												height="25"
-												viewBox="0 0 24 24"
-												stroke-width="2"
-												stroke="#ffffff"
-												fill="none"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											>
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<path
-													d="M12 21a9 9 0 1 1 0 -18a9 8 0 0 1 9 8a4.5 4 0 0 1 -4.5 4h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25"
-												/>
-												<circle cx="7.5" cy="10.5" r=".5" fill="currentColor" />
-												<circle cx="12" cy="7.5" r=".5" fill="currentColor" />
-												<circle
-													cx="16.5"
-													cy="10.5"
-													r=".5"
-													fill="currentColor"
-												/>
-											</svg>
-										</div>
-										<div class="text">
-											<h3>Custom landing page</h3>
-											<p>
-												Engage more, communicate better and easily integrate the
-												platform to your corporate website
-											</p>
-										</div>
-									</div>
-									<div class="module-box">
-										<div class="icon-module">
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												class="icon icon-tabler icon-tabler-notes"
-												width="25"
-												height="25"
-												viewBox="0 0 24 24"
-												stroke-width="2"
-												stroke="#ffffff"
-												fill="none"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-											>
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<rect x="5" y="3" width="14" height="18" rx="2" />
-												<line x1="9" y1="7" x2="15" y2="7" />
-												<line x1="9" y1="11" x2="15" y2="11" />
-												<line x1="9" y1="15" x2="13" y2="15" />
-											</svg>
-										</div>
-										<div class="text">
-											<h3>Additional Content</h3>
-											<p>
-												Publish Job Offers, Events, Articles, Education
-												Resources, Papers, Opinions
-											</p>
-										</div>
-									</div>
-								</div>
+							<div class="perk-block">
+								<h3 class="blue">
+									Integrated evaluation process<br />
+									and collaboration
+								</h3>
+								<p>
+									A trusted easy-to-use interface developed by Innoget to
+									collaborativelly manage challenge topics and evaluate ideas
+								</p>
+								<ul>
+									<li>Manage challenges from your existing Innoget account</li>
+									<li>Receive unlimited submissions from a global audience</li>
+									<li>
+										Invite jury members to evaluate the submissions online
+									</li>
+									<li>
+										Export visual reports presenting the performance of the
+										challenges
+									</li>
+								</ul>
+							</div>
+							<div class="perk-block">
+								<h3 class="blue">Effective marketing and communication</h3>
+								<p>
+									Dedicated marketing and communication support to maximize the
+									reach of your Open Innovation Challenge both online and
+									offline:
+								</p>
+								<ul>
+									<li>
+										Listing of the online launch event and Open Innovation
+										Challenge website on Innoget.com
+									</li>
+									<li>
+										Active promotion on social media and Innoget's external
+										networks and partners
+									</li>
+									<li>Press release difussion</li>
+									<li>
+										Dedicated e-blast delivery and follow up notifications
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="module">
+			<section id="network" class="bg-white">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							<div class="grid-h">
-								<div class="left">
-									<img
-										class="img-responsive"
-										src="./img/sub-organizations-module.svg"
-										alt="Sub-organizations Module"
-									/>
-								</div>
-								<div class="right">
-									<h2>Sub-organizations Module</h2>
-									<span>Easily integrate all your organization</span>
-									<p class="sub-h2">
-										Create independent entities -business units, associated
-										organizations, reserch groups, etc.- within the network to
-										easily group and manage related content and network members.
-									</p>
-									<a
-										href="https://calendly.com/innoget/innogetcloud-introductory-telco?month=2020-10"
-										title="Book a demo"
-										target="_blank"
-										rel="nofollow"
-										class="btn btn-l btn-blue"
-										>Book a demo</a
-									>
-								</div>
+							<div class="title-area text-center">
+								<h2>
+									Connect with a network of 185,000+<br />
+									professionals worldwide
+								</h2>
+								<h3 class="blue">
+									Our members represent the best in innovation
+								</h3>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-			<section class="module bg-white">
-				<div class="container">
 					<div class="row">
-						<div class="col-sm-12">
-							<div class="grid-h row-reverse">
-								<div class="left">
-									<img
-										class="img-responsive"
-										src="./img/custom-landing-module.svg"
-										alt=""
-									/>
+						<div class="wrapper">
+							<div class="left">
+								<div class="kpi">
+									<span>700+</span>
+									research areas
 								</div>
-								<div class="right">
-									<h2>Custom Landing Page Module</h2>
-									<span>Communicate better</span>
-									<p class="sub-h2">
-										Organizations trust Innoget to develop a tailored landing
-										page to better communicate the mission of the open
-										innovation platform, engage better with their audience and
-										easily integrate it to their existing website.
-									</p>
-									<a
-										href="https://calendly.com/innoget/innogetcloud-introductory-telco?month=2020-10"
-										title="Book a demo"
-										target="_blank"
-										rel="nofollow"
-										class="btn btn-l btn-blue"
-										>Book a demo</a
-									>
+								<div class="kpi">
+									<span>9,900+</span>
+									organizations
+								</div>
+								<div class="kpi">
+									<span>185,000+</span>
+									experts reached
+								</div>
+								<div class="kpi">
+									<span>30,000+</span>
+									connections provided
+								</div>
+								<div class="kpi">
+									<span>4,500+</span>
+									technology offers
+								</div>
+								<div class="kpi">
+									<span>450+</span>
+									business opportunities
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="module">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="grid-h">
-								<div class="left">
-									<img
-										class="img-responsive"
-										src="./img/management-module.svg"
-										alt=""
-									/>
-								</div>
-								<div class="right">
-									<h2>Management Module</h2>
-									<span>Delegate tasks</span>
-									<p class="sub-h2">
-										Create and assign managers to specific sub-organizations,
-										working groups or research areas to delegate tasks and
-										facilitate the management of the platform.
-									</p>
-									<a
-										href="https://calendly.com/innoget/innogetcloud-introductory-telco?month=2020-10"
-										title="Book a demo"
-										target="_blank"
-										rel="nofollow"
-										class="btn btn-l btn-blue"
-										>Book a demo</a
-									>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="module bg-white">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="grid-h row-reverse">
-								<div class="left">
-									<img
-										class="img-responsive"
-										src="./img//extra-content-module.svg"
-										alt=""
-									/>
-								</div>
-								<div class="right">
-									<h2>Extra Content Module</h2>
-									<span>Provide more value</span>
-									<p class="sub-h2">
-										Increase your platform value by providing your members with
-										the possibility to list job offers, articles, opinions,
-										education resources and events.
-									</p>
-									<a
-										href="https://calendly.com/innoget/innogetcloud-introductory-telco?month=2020-10"
-										title="Book a demo"
-										target="_blank"
-										rel="nofollow"
-										class="btn btn-l btn-blue"
-										>Book a demo</a
-									>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="module">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="grid-h">
-								<div class="left">
-									<img
-										class="img-responsive"
-										src="./img/innoget-sync-module.svg"
-										alt=""
-									/>
-								</div>
-								<div class="right">
-									<h2>Innoget Sync Module</h2>
-									<span>Reach more opportunities</span>
-									<p class="sub-h2">
-										Innoget Sync establishes a two-way channel to import and
-										export innovation, research and funding opportunities
-										between your platform and Innoget.com, reaching potential
-										partners worldwide.
-									</p>
-									<a
-										href="https://calendly.com/innoget/innogetcloud-introductory-telco?month=2020-10"
-										title="Book a demo"
-										target="_blank"
-										rel="nofollow"
-										class="btn btn-l btn-blue"
-										>Book a demo</a
-									>
+							<div class="right">
+								<div
+									id="regions_div"
+									style="
+										width: 700px;
+										height: auto;
+										margin: 0 auto;
+										margin-top: 50px;
+									"
+								></div>
+								<div class="kpi">
+									<div class="kpi-wrapper">
+										<span>180+</span>
+										countries<br />of origin
+									</div>
 								</div>
 							</div>
 						</div>
@@ -727,12 +568,12 @@
 					<div class="col-sm-12">
 						<div class="grid-h">
 							<div class="grid-item">
-								<img src="./img/logo-innogetcloud-l.svg" />
+								<img src="./img/innoget-logo-full.svg" alt="Logo Innoget" />
 								<p>
-									InnogetCloud is the cloud-based solution to create and manage
-									co-branded open innovation platforms to connect your
-									innovation ecosystem and generate new collaboration
-									opportunities, all in one place.
+									Innoget is the partner or choice for services related to open
+									innovation, technology scouting and technology transfer.
+									Trusted by leading innovators worldwide, Innoget and
+									Innoget.com have become an open innovation referent worldwide.
 								</p>
 								<p>
 									2006 - <span id="timeStamp"></span> © Innoget. All rights
@@ -785,19 +626,13 @@
 								</ul>
 							</div>
 							<div class="grid-item">
-								<h3>About InnogetCloud</h3>
+								<h3>About Innoget</h3>
 								<ul>
 									<li>
-										<a href="#product" title="Products">Product</a>
+										<a href="#modules" title="Products">Modules</a>
 									</li>
 									<li>
-										<a href="#compliance" title="Technology">Technology</a>
-									</li>
-									<li>
-										<a href="#features" title="Features">Features</a>
-									</li>
-									<li>
-										<a href="#audience" title="Clients">Clients</a>
+										<a href="#testimonials" title="Clients">Clients</a>
 									</li>
 									<li>
 										<a

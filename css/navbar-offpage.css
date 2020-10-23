@@ -51,10 +51,10 @@
 
 .navbar .navbar-default.top .navbar-header .navbar-brand > img {
 	width: auto;
-	height: 25px;
+	height: 27px;
 	display: inline-block;
 	position: relative;
-	top: 1px;
+	top: 5px;
 }
 
 .navbar .navbar-default.top .navbar-header .navbar-brand span {
