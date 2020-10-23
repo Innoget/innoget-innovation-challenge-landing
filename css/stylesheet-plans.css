@@ -372,12 +372,20 @@ a:hover {
 .co-branded-challenge .wrapper .perks-list {
 	width: 30%;
 }
-.co-branded-challenge .perks-list .perk p {
+
+.co-branded-challenge .wrapper .media-perk {
+	max-width: 50%;
+	margin: 30px 15px 50px 50px;
+}
+
+.co-branded-challenge .perks-list .perk p,
+.co-branded-challenge .perk-blocks .perk-block p {
 	color: #58708d;
 	font-size: 15px;
 	letter-spacing: 0.54px;
 	line-height: 22px;
 	margin: 20px 0;
+	font-weight: 600;
 }
 
 .co-branded-challenge .perk-blocks {
@@ -394,6 +402,27 @@ a:hover {
 	margin-bottom: 20px;
 }
 
+.co-branded-challenge .perk-blocks .perk-block p {
+	color: #0c3566;
+	font-weight: 700;
+}
+
+.co-branded-challenge .perk-blocks .perk-block ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.co-branded-challenge .perk-blocks .perk-block ul li {
+	font-size: 14px;
+	font-weight: 600;
+	color: #58708d;
+}
+
+.co-branded-challenge .perk-blocks .perk-block ul li::before {
+	content: "_";
+}
+
 /*END CORNERSTONES*/
 
 /*NETWORK*/
@@ -404,6 +433,11 @@ a:hover {
 
 #network .wrapper {
 	padding: 0 15px;
+}
+
+#network .title-area {
+	max-width: 640px;
+	margin: 0 auto;
 }
 
 #network .wrapper .left {
@@ -429,6 +463,8 @@ a:hover {
 
 #network .wrapper .left .kpi {
 	padding: 0 20px;
+	font-weight: 600;
+	font-size: 15px;
 }
 
 #network .wrapper .left .kpi:not(:last-child) {
@@ -448,6 +484,8 @@ a:hover {
 	width: 130px;
 	height: 130px;
 	display: flex;
+	font-weight: 600;
+	font-size: 15px;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
@@ -518,7 +556,6 @@ a:hover {
 #testimonials .testimonials-wrapper .logos h3 {
 	text-align: center;
 	margin-bottom: 20px;
-	text-transform: capitalize;
 }
 
 #testimonials .logos .grid-h {
@@ -533,6 +570,21 @@ a:hover {
 
 #testimonials .buttons .btn:last-child {
 	margin-left: 10px;
+}
+
+#testimonials .carousel-control.right,
+#testimonials .carousel-control.left {
+	background-image: none !important;
+}
+
+#testimonials .carousel-control.left .glyphicon-chevron-left:before {
+	content: "\e875";
+	font-family: "LinearIcons-Free";
+}
+
+#testimonials .carousel-control.right .glyphicon-chevron-right:before {
+	content: "\e876";
+	font-family: "LinearIcons-Free";
 }
 
 /*TESTIMONIALS*/
@@ -573,6 +625,7 @@ a:hover {
 
 #contact .container .box a .item-box p {
 	margin: 0;
+	font-weight: 700;
 }
 
 #contact .container .box a .item-box p {
