@@ -4,48 +4,25 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="title" content="Open Innovation Challenge Software - Innoget" />
-		<meta
-			name="description"
-			content="Launch your open innovation challenge with Innoget, the partner of choice for open innovation services"
-		/>
+		<meta name="description" content="Launch your open innovation challenge with Innoget, the partner of choice for open innovation services" />
 		<meta name="robots" content="index, follow" />
-		<meta
-			property="og:title"
-			content="Open Innovation Challenge Software - Innoget"
-		/>
-		<meta
-			property="og:description"
-			content="Launch your open innovation challenge with Innoget, the partner of choice for open innovation services"
-		/>
+		<meta property="og:title" content="Open Innovation Challenge Software - Innoget" />
+		<meta property="og:description" content="Launch your open innovation challenge with Innoget, the partner of choice for open innovation services" />
 		<meta property="og:image" content="img/og-image.png" />
 		<link rel="icon" href="./img/favicon.png" />
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Raleway:500,600,700"
-			rel="stylesheet"
-		/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link href="https://fonts.googleapis.com/css?family=Raleway:500,600,700" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="./css/navbar-offpage.css" />
+		<link rel="stylesheet" type="text/css" href="./css/footer-offpage.css" />
 		<link rel="stylesheet" type="text/css" href="./css/stylesheet-plans.css" />
 		<link rel="stylesheet" type="text/css" href="./css/stylesheet-global.css" />
-
-		<script
-			type="text/javascript"
-			src="https://www.gstatic.com/charts/loader.js"
-		></script>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 		<script type="text/javascript">
 			google.charts.load("current", {
 				packages: ["geochart"],
 				mapsApiKey: "AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY",
 			});
 			google.charts.setOnLoadCallback(drawRegionsMap);
-
 			function drawRegionsMap() {
 				var data = google.visualization.arrayToDataTable([
 					["Region code", "Continent", "Region of origin (%)"],
@@ -55,7 +32,6 @@
 					["009", "Oceania", 22],
 					["002", "Africa", 2],
 				]);
-
 				var options = {
 					region: "world",
 					resolution: "continents",
@@ -65,86 +41,152 @@
 						colors: ["#B6CCE7", "#1D7CEE"],
 					},
 				};
-
 				var chart = new google.visualization.GeoChart(
 					document.getElementById("regions_div")
 				);
-
 				chart.draw(data, options);
 			}
 		</script>
 	</head>
 	<body>
 		<div id="overlay"></div>
-		<header>
-			<nav class="navbar navbar-main navbar-fixed-top">
-				<div class="navbar-default top border-bottom">
-					<div class="container">
-						<div class="navbar-header">
-							<button
-								type="button"
-								class="navbar-toggle"
-								data-toggle="collapse"
-								data-target="#innoget-main-navigation"
-							>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a
-								class="navbar-brand"
-								href="https://www.innoget.com/account"
-								id="navbar-brand"
-								title="Innoget"
-							>
-								<img
-									class="img-responsive"
-									alt="Logo Innoget"
-									src="./img/innoget-logo-full.svg"
-								/>
-							</a>
-						</div>
-						<div
-							class="collapse navbar-collapse navbar-menu"
-							id="innoget-main-navigation"
+		<nav class="navbar navbar-main navbar-fixed-top">
+			<div class="navbar-default top border-bottom">
+				<div class="container">
+					<div class="navbar-header">
+						<button
+							type="button"
+							class="navbar-toggle"
+							data-toggle="collapse"
+							data-target="#innoget-main-navigation"
 						>
-							<div class="navbar-right">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a
+							class="navbar-brand"
+							href="https://www.innoget.com"
+							id="navbar-brand"
+							title="Innoget"
+						>
+							<img
+								class="img-responsive"
+								alt="Logo Innoget"
+								src="../img/innoget-logo-full.svg"
+							/>
+						</a>
+					</div>
+					<div
+						class="collapse navbar-collapse navbar-menu"
+						id="innoget-main-navigation"
+					>
+						<div class="navbar-left">
+							<form class="navbar-form" rel="nofollow" action="/advanced-search" method="get"
+								id="search-header" data-query="/advanced-search" autocomplete="off">
+								<div class="input-group">
+									<input type="text" name="advanced_search[q]" class="form-control search-textbox"
+										id="search-textbox" placeholder="Search…">
+									<div class="input-group-btn">
+										<button type="submit" class="btn btn-blue search" title="Go!">
+											<span class="text-current-search">
+												<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+													<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+													<circle cx="10" cy="10" r="7" />
+													<line x1="21" y1="21" x2="15" y2="15" />
+												</svg>
+											</span>
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="navbar-right">
+							<div class="left">
 								<ul class="nav navbar-nav">
-									<li class="item">
-										<a href="#modules" title="">Modules</a>
+									<li class="item dropdown">
+										<a href="#" title="Browse" data-toggle="dropdown" class="dropdown-toggle">Browse <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="#58708D" fill="none" stroke-linecap="round" stroke-linejoin="round">
+											<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+											<polyline points="6 9 12 15 18 9" />
+											</svg></a>
+											<ul class="dropdown-menu">
+											<li><a href="https://sandbox.innoget.com/technology-calls/q" title="Innovation Needs on Innoget" rel="nofollow"><strong>Innovation Needs</strong></a></li>
+											<li><a href="https://sandbox.innoget.com/technology-offers/q" title="Technology Offers on Innoget" rel="nofollow"><strong>Technology Offers</strong></a></li>
+											<li><a href="#" class="active" rel="nofollow"><strong>Posts Categories</strong></a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/electronics-it-and-telecomms" title="Electronics, IT and Telecomms" rel="nofollow">Electronics, IT and Telecomms</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/industrial-manufacturing-material-and-transport-technologies" title="Industrial manufacutring, Material and Transport Technologies" rel="nofollow">Industrial manufacutring, Material and<br>Transport Technologies</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/industrial-technologies" title="Industrial Technologies" rel="nofollow">Industrial Technologies</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/energy-technology" title="Energy Technology" rel="nofollow">Energy Technology</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/physical-sciences-and-exact-sciences" title="Physical Sciences and Exact Sciences" rel="nofollow">Physical Sciences and Exact Sciences</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/biological-sciences" title="Biological Sciences" rel="nofollow">Biological Sciences</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/agriculture-marine-resources" title="Agriculture and Marine Resources" rel="nofollow">Agriculture and Marine Resources</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/agrofood-industry" title="Agrofood Industry" rel="nofollow">Agrofood Industry</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/measurements-standards" title="Measurements and Standards" rel="nofollow">Measurements and Standards</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/ct/protecting-man-environment" title="Protecting man and Environment" rel="nofollow">Protecting man and Environment</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/cm/communications" title="Communications" rel="nofollow">Communications</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/cm/computer-related" title="Computer Related" rel="nofollow">Computer Related</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/cm/electronics-related-market" title="Electronics Related Market" rel="nofollow">Electronics Related Market</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/cm/genetic-engineering-molecular-biology" title="Genetic Engineering / Molecular Biology" rel="nofollow">Genetic Engineering / Molecular Biology</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/cm/medical-health-related" title="Medical Health related" rel="nofollow">Medical Health related</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/cm/energy-market" title="Energy Market" rel="nofollow">Energy Market</a></li>
+											<li><a href="https://sandbox.innoget.com/technology-calls/cm/consumer-related" title="Consumer related" rel="nofollow">Consumer related</a></li>
+										</ul>
 									</li>
 									<li class="item">
-										<a href="#testimonials" title="">Clients</a>
+										<a href="https://www.innoget.com/#about" title="Why Innoget">Why Innoget</a>
 									</li>
 									<li class="item">
-										<a
-											href="https://calendly.com/innoget/innogetcloud-introductory-telco?month=2020-05"
-											title="Book a demo"
-											class="btn btn-l btn-blue"
-											rel="nofollow"
-											target="_blank"
-											>Book a demo</a
-										>
+										<a href="https://www.innoget.com/#works" title="How it works">How it works</a>
 									</li>
 								</ul>
 							</div>
+							<div class="right">
+
+							</div>
+							<ul class="nav navbar-nav">
+								<li class="item">
+									<a href="https://www.innoget.com/login" title="Log In">Log In</a>
+								</li>
+								<li class="item">
+									<a
+										href="https://www.innoget.com/signup"
+										title="Sign Up"
+										class="btn btn-l btn-blue"
+										rel="nofollow"
+										>Sign Up</a
+									>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
-			</nav>
-		</header>
+			</div>
+			<div class="navbar-default header border-bottom only-breadcrumb">
+				<div class="container">
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="https://www.innoget.com">Home</a></li>
+							<li class="breadcrumb-item"><a href="https://www.innoget.com/services">Services</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Open Innovation Challenge Program</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+		</nav>
 		<main>
-			<section id="header" class="bg-white">
+			<header id="header" class="bg-white">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="header">
 								<div class="left">
-									<h1>Launch your Open Innovation Challenge with Innoget</h1>
+									<h1>
+										Launch your <strong>Open Innovation Challenge</strong> with
+										Innoget
+									</h1>
 									<p class="sub-h1">
 										Global companies trust Innoget to easily build, manage and
-										market their Open Innovation Challenges<br />
-										to accelerate innovation.
+										market their Open Innovation Challenges to accelerate innovation
 									</p>
 									<div class="buttons">
 										<a href="#" title="Book a demo" class="btn btn-blue btn-l"
@@ -153,11 +195,13 @@
 										<a
 											href="#"
 											title="Download marketing deck"
-											class="btn btn-l"
+											class="btn btn-l btn-soft"
 											>Download marketing deck</a
 										>
 									</div>
-									<div class="right"></div>
+								</div>
+								<div class="right">
+									<img src="/img/media-open-innovation-challenge.svg" alt="Open Innovation Challenge | Innoget">
 								</div>
 							</div>
 						</div>
@@ -166,7 +210,7 @@
 						<div class="col-sm-12">
 							<div class="testimonials">
 								<div class="title-area text-center">
-									<h3>Trusted by leading innovators worldwide</h3>
+									<h3>Trusted by organizations worldwide</h3>
 								</div>
 								<div class="t-grid">
 									<img src="./img/logo-pepsico.png" class="img-responsive" />
@@ -180,147 +224,225 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<section class="co-branded-challenge bg-white">
+			</header>
+			<section id="coBranded" class="bg-white">
 				<div class="container">
 					<div class="row">
 						<div class="title-area">
-							<h2>
-								The most complete solution <br />
-								to make your Open Innovation Challenge <br />a success
-							</h2>
-							<h3 class="blue">
-								Fully co-branded<br />
-								Open Innovation Challenge<br />
-								webiste
-							</h3>
+							<h2>The most complete solution<br>for your Open Innovation Challenge</h2>
+							<p class="sub-h1">Innoget's Open Innovation Challenge Program service has you covered<br> from the design and development of the digital footprint to the communication<br> of the program and the evaluation of the proposals</p>
 						</div>
 					</div>
 					<div class="row">
+						<div class="wrapper media">
+							<div class="left">
+								<img src="./img/clariant-open-innovation-challenge-innoget.png" alt="Clariant Sugar Surfactants Open Innovation Challenge">
+								<span class="caption">Clariant Sugar Surfactants Open Innovation Challenge</span>
+							</div>
+							<div class="right">
+								<div class="left">
+									<img src="./img/iaea-open-innovation-challenge.png" alt="International Atomic Energy Agency Robotics Challenge">
+									<span class="caption">International Atomic Energy Agency Robotics Challenge</span>
+								</div>
+								<div class="right">
+									<img src="./img/audi-open-innovation-challenge-innoget.png" alt="Audi TW Innovation Award 2020 Concept">
+									<span class="caption">Audi TW Innovation Award 2020 Concept</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="title-area call-to-action">
+							<p class="sub-h1">Streamline the design and development process<br> of your next Open Innovation Challenge program<br> with Innoget</h3>
+							<div class="buttons">
+								<a href="#" title="Book a demo" class="btn btn-blue btn-l"
+									>Book a demo</a
+								>
+								<a
+									href="#"
+									title="Download marketing deck"
+									class="btn btn-l btn-soft"
+									>Download marketing deck</a
+								>
+							</div>
+						</div>
 						<div class="wrapper">
 							<div class="perks-list">
 								<div class="perk">
+									<img src="./img/custom-website-icon.svg" alt="">
+									<h3>100% custom website</h3>
 									<p>
-										<b>100% custom webiste</b> following your own corporate
-										guidelines. Launch your Open Innovation Challenge without
-										depending on your IT department.
+										We design and develop catchy platforms following own corporate guidelines. Launch your Open Innovation Challenge without relying on your IT department.
 									</p>
 								</div>
 								<div class="perk">
+									<img src="./img/responsive-design-icon.svg" alt="">
+									<h3>Fully responsive design</h3>
 									<p>
-										<b>Fully responsive design</b> for tablets and smartphones;
+										Adaptative mobile-first platforms for tablets and smartphones;
 										we use the latest technologies to maximize engagement and
 										usability.
 									</p>
 								</div>
 								<div class="perk">
+									<img src="./img/clear-copies-icon.svg" alt="">
+									<h3>Clear copies and call-to-actions</h3>
 									<p>
-										<b>Clear copies and call-to-actions</b> to effectively
-										communicate the challenge and rise participants' interest.
+										Let our team word engaging copies and call to actions to effectively communicate the challenge and rise participants' interest.
 									</p>
 								</div>
-							</div>
-
-							<div class="media-perk">
-								<img
-									src="./img/custom-open-innovation-challenge-website.png"
-									alt="Co-branded Open Innovation Challenge Website"
-									class="img-responsive"
-								/>
-							</div>
-
-							<div class="perks-list">
 								<div class="perk">
+									<img src="./img/integration-innoget-icon.svg" alt="">
+									<h3>Platform integration with Innoget</h3>
 									<p>
-										<b>Platform integration with Innoget</b> to easily reach a
+										Easily reach a
 										global network of potential participants and effectively
 										communicate the Open Innovation Challenge both online and
 										offline.
 									</p>
 								</div>
 								<div class="perk">
+									<img src="./img/custom-forms-icon.svg" alt="">
+									<h3>Set up of custom submission forms</h3>
 									<p>
-										<b>Set up of custom submission forms</b> so interested
+										Co-branded proposals submission forms so interested
 										participants easily submit proposals to the available Open
 										Innovation Challenge topics.
 									</p>
 								</div>
 								<div class="perk">
+									<img src="./img/dedicated-support-icon.svg" alt="">
+									<h3>Dedicated support</h3>
 									<p>
-										Rely on our <b>dedicated team of experts</b> to design,
-										build and support your next Open Innovation Challenge.
+										Our dedicated team of experts will design,
+										build and support you along the way so your next Open Innovation Challenge is a success.
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+			</section>
+			<section id="communication" class="bg-white">
+				<div class="container">
 					<div class="row">
-						<div class="wrapper perk-blocks">
-							<div class="perk-block">
-								<h3 class="blue">Online launch webinar and registrations</h3>
-								<p>
-									Set up of an online launch webinar to communicate the
-									challenge to your defined audience:
-								</p>
-								<ul>
-									<li>
-										Integration of the webinar into your Open Innovation
+						<div class="wrapper">
+							<div class="left">
+								<div class="title-area">
+									<h2>Online launch webinar<br> and lead generation</h2>
+									<p class="sub-h1">Set up of an online launch webinar to communicate the challenge to your defined audience. The service includes:</p>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/webinar-icon-1.svg" alt="">
+										<p>Integration of the webinar into your Open Innovation
 										Challenge website to improve engagement and boost
 										registrations
-									</li>
-									<li>
-										Data sharing between Innoget and you to provide interested
-										participants with access to the webinar as well as to
-										provide additional materials
-									</li>
-									<li>
-										Dedicated webinar online promotion and and post-webinar
-										follow-up
-									</li>
-								</ul>
+										</p>
+									</div>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/webinar-icon-2.svg" alt="">
+										<p>Data sharing between Innoget and you to provide interested
+											participants with access to the webinar as well as to
+											provide additional materials
+										</p>
+									</div>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/webinar-icon-3.svg" alt="">
+										<p>Dedicated webinar online promotion and and post-webinar
+											follow-up
+										</p>
+									</div>
+								</div>
 							</div>
-							<div class="perk-block">
-								<h3 class="blue">
-									Integrated evaluation process<br />
-									and collaboration
-								</h3>
-								<p>
-									A trusted easy-to-use interface developed by Innoget to
-									collaborativelly manage challenge topics and evaluate ideas:
-								</p>
-								<ul>
-									<li>Manage challenges from your existing Innoget account</li>
-									<li>Receive unlimited submissions from a global audience</li>
-									<li>
-										Invite jury members to evaluate the submissions online
-									</li>
-									<li>
-										Export visual reports presenting the performance of the
-										challenges
-									</li>
-								</ul>
+							<div class="right">
+								<div class="title-area">
+									<h2>Effective marketing<br> and communication</h2>
+									<p class="sub-h1">Dedicated marketing and communication support to maximize the reach of your Open Innovation Challenge both online and offline:</p>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/marketing-icon-1.svg" alt="">
+										<p>Listing of both the online launch event and the Open Innovation Challenge topics on Innoget.com, the leading open innovation network
+										</p>
+									</div>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/marketing-icon-2.svg" alt="">
+										<p>Active promotion on social media and difussion through Innoget's external networks and global open innovation alliance
+										</p>
+									</div>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/marketing-icon-3.svg" alt="">
+										<p>Dedicated e-blast delivery, press release difussion and e-mail follow up notifications
+										</p>
+									</div>
+								</div>
 							</div>
-							<div class="perk-block">
-								<h3 class="blue">Effective marketing and communication</h3>
-								<p>
-									Dedicated marketing and communication support to maximize the
-									reach of your Open Innovation Challenge both online and
-									offline:
-								</p>
-								<ul>
-									<li>
-										Listing of the online launch event and Open Innovation
-										Challenge website on Innoget.com
-									</li>
-									<li>
-										Active promotion on social media and Innoget's external
-										networks and partners
-									</li>
-									<li>Press release difussion</li>
-									<li>
-										Dedicated e-blast delivery and follow up notifications
-									</li>
-								</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="title-area call-to-action">
+							<p class="sub-h1">Benefit from the power of the open innovation<br> ecosystem. Launch Open Innovation Challenge program<br> with Innoget</h3>
+							<div class="buttons">
+								<a href="#" title="Book a demo" class="btn btn-blue btn-l"
+									>Book a demo</a
+								>
+								<a
+									href="#"
+									title="Download marketing deck"
+									class="btn btn-l btn-soft"
+									>Download marketing deck</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="evaluation" class="bg-white">
+				<div class="container">
+					<div class="row">
+						<div class="wrapper">
+							<div class="left">
+								<div class="title-area">
+									<h2>Integrated evaluation process</h2>
+									<p class="sub-h1">Benefit from a robust yet easy-to-use interface to collaborativelly manage the challenge topics and evaluate incoming submissions:</p>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/webinar-icon-1.svg" alt="">
+										<p>Manage challenges from your existing<br> Innoget account</p>
+									</div>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/webinar-icon-1.svg" alt="">
+										<p>Receive unlimited submissions from<br> a global audience</p>
+									</div>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/webinar-icon-1.svg" alt="">
+										<p>Invite jury members to evaluate the submissions online</p>
+									</div>
+								</div>
+								<div class="perk-block">
+									<div class="perk">
+										<img src="./img/webinar-icon-1.svg" alt="">
+										<p>Export visual reports presenting the performance of the
+											challenges</p>
+									</div>
+								</div>
+							</div>
+							<div class="right">
+								<img src="./img/evaluation-panel-innoget.svg" alt="">
 							</div>
 						</div>
 					</div>
@@ -535,8 +657,7 @@
 							<div class="">
 								<img src="img/ge-2.svg" />
 								<h2>
-									Still not sure why Innoget should be your partner <br />
-									of choice? Contact sales
+									Still not sure about Innoget's Open Innovation Challenge Program?
 								</h2>
 							</div>
 						</div>
@@ -560,130 +681,132 @@
 				</div>
 			</section>
 		</main>
-		<footer class="bg-white">
+		<footer>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="grid-h">
 							<div class="grid-item">
-								<img src="./img/innoget-logo-full.svg" alt="Logo Innoget" />
+								<img src="../img/innoget-logo-full.svg" alt="Logo Innoget" class="logo" />
 								<p>
 									Innoget is the partner or choice for services related to open
-									innovation, technology scouting and technology transfer.
-									Trusted by leading innovators worldwide, Innoget and
-									Innoget.com have become an open innovation referent worldwide.
-								</p>
+                                    innovation, technology scouting and technology transfer.</p>
+                                    <p>
+									Trusted by leading innovators worldwide, Innoget commercializes both the awarded Innoget.com, the leading open innovation network, and InnogetCloud, the modular open innovation software.
+                                </p>
+                                <h3>Join for free</h3>
+                                <ul class="flex">
+                                    <li><a href="https://www.innoget.com/signup" title="Sign up" rel="nofollow" class="btn btn-m btn-blue">Sign up</a></li>
+                                    <li><a href="https://www.innoget.com/login" title="Log in" rel="nofollow" class="btn btn-m btn-soft">Log in</a></li>
+                                </ul>
+                                <h3>Connect with us</h3>
+                                <ul class="flex social">
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/innoget" title="Follow Innoget on LinkedIn" rel="nofollow" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#58708D" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                            <rect x="4" y="4" width="16" height="16" rx="2" />
+                                            <line x1="8" y1="11" x2="8" y2="16" />
+                                            <line x1="8" y1="8" x2="8" y2="8.01" />
+                                            <line x1="12" y1="16" x2="12" y2="11" />
+                                            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                                        </svg> LinkedIn
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/innoget" title="Follow Innoget on Twitter" rel="nofollow" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#58708D" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                                        </svg> Twitter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/innogetOI" title="Follow Innoget on Facebook">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#58708D" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                                        </svg> Facebook
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://innogetopeninnovation.innoget.com" title="Follow Innoget on Innoget" rel="nofollow" target="_blank">
+                                            <img src="../img/logo-innoget-social.svg" alt="Innoget logo social">
+                                        Innoget
+                                        </a>
+                                    </li>
+                                </ul>
 								<p>
-									2006 - <span id="timeStamp"></span> © Innoget. All rights
+									2006 - 2020 © Innoget. All rights
 									reserved.
 								</p>
-							</div>
-							<div class="grid-item">
-								<h3>Support</h3>
-								<ul>
-									<li>
-										<a
-											href="https://www.innogetcloud.com/privacy-policy"
-											title="Privacy policy"
-											rel="nofollow"
-											>Privacy policy</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://www.innogetcloud.com/terms-of-use"
-											title="Terms of use"
-											rel="nofollow"
-											>Terms of use</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://www.innogetcloud.com/general-conditions-of-use-and-contract"
-											title="General conditions"
-											rel="nofollow"
-											>General conditions</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://www.innogetcloud.com/cookies"
-											title="Cookies policy"
-											rel="nofollow"
-											>Cookies policy</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://www.innogetcloud.com/security-statement"
-											title="Security statement"
-											rel="nofollow"
-											>Security statement</a
-										>
-									</li>
-								</ul>
-							</div>
-							<div class="grid-item">
-								<h3>About Innoget</h3>
-								<ul>
-									<li>
-										<a href="#modules" title="Products">Modules</a>
-									</li>
-									<li>
-										<a href="#testimonials" title="Clients">Clients</a>
-									</li>
-									<li>
-										<a
-											href="https://calendly.com/innoget/innogetcloud-introductory-telco?month=2020-05"
-											target="_blank"
-											rel="nofollow"
-											title="Book a demo"
-											>Book a demo</a
-										>
-									</li>
-								</ul>
-							</div>
-							<div class="grid-item">
-								<h3>About Innoget</h3>
-								<ul>
-									<li>
-										<a
-											href="https://www.innoget.com/"
-											title="Products & Services"
-											rel="nofollow"
-											target="_blank"
-											>Products & Services</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://www.innoget.com/open-innovation-definition"
-											title="Open Innovation"
-											rel="nofollow"
-											target="_blank"
-											>Open Innovation</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://www.innoget.com/innovation-events"
-											title="Innovation Events"
-											rel="nofollow"
-											target="_blank"
-											>Innovation Events</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://www.innoget.com/innovation-blog"
-											title="Innovation Blog"
-											rel="nofollow"
-											target="_blank"
-											>Innovation Blog</a
-										>
-									</li>
-								</ul>
-							</div>
+                            </div>
+                            <div class="grid-item">
+                                <h3>Resources</h3>
+                                <ul>
+                                    <li><a href="https://www.innoget.com/about-innoget" title="About Innoget" rel="nofollow">About Innoget</a></li>
+                                    <li><a href="#" title="Products and Services" rel="nofollow">Products and Services</a></li>
+                                    <li><a href="https://www.innoget.com/innovation-partners" title="Global Open Innovation Alliance" rel="nofollow"></a>Global Open Innovation Alliance</li>
+                                    <li><a href="https://www.innoget.com/innovation-blog/innovation-insider" title="Clients and Testimonials" rel="nofollow">Clients and Testimonials</a></li>
+                                    <li><a href="https://www.innoget.com/help-center" title="Help Center" rel="nofollow">Help Center</a></li>
+                                    <li><a href="https://www.innoget.com/open-innovation-definition" title="Open Innovation Definition" rel="follow">Open Innovation Definition</a></li>
+                                    <li><a href="https://www.innoget.com/innovation-events" title="Innovation Events and Conferences" rel="follow">Innovation Events and Conferences</a></li>
+                                    <li><a href="https://www.innoget.com/innovation-blog/innovation-insider" title="Innovation Insider" rel="nofollow">Innovation Insider</a></li>
+                                    <li><a href="https://www.innoget.com/innovation-blog" title="Innovation Blog" rel="nofollow">Innovation Blog</a></li>
+                                    <li><a href="https://www.innoget.com/open-innovation-books" title="Open Innovation Books" rel="nofollow">Open Innovation Books</a></li>
+                                    <li><a href="https://www.innoget.com/group/covid-19-open-innovation-initiative" title="Covid-19 Open Innovation Initiative" rel="nofollow">Covid-19 Open Innovation Initiative</a></li>
+                                    <div class="legal">
+                                        <li><a href="https://www.innoget.com/terms-and-conditions" title="Terms of Use" rel="nofollow">Terms of Use</a></li>
+                                        <li><a href="https://www.innoget.com/legal" title="Privacy Policy" rel="nofollow">Privacy Policy</a></li>
+                                        <li><a href="https://www.innoget.com/terms-and-conditions#cookies" title="Cookie Policy" rel="nofollow">Cookie Policy</a></li>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="grid-item">
+                                <h3>Directories</h3>
+                                <ul>
+                                    <li><a href="https://www.innoget.com/technology-calls" title="Innovation Needs" rel="follow">Innovation Needs</a></li>
+                                    <li><a href="https://www.innoget.com/technology-offers" title="Technology Offers" rel="follow">Technology Offers</a></li>
+                                    <li><a href="#" title="Professionals" rel="nofollow">Professionals</a></li>
+                                    <li><a href="#" title="Organizations" rel="nofollow">Organizations</a></li>
+                                    <li><a href="https://www.innoget.com/innovation-events" title="Innovation Events" rel="follow">Innovation Events</a></li>
+                                    <li><a href="https://www.innoget.com/innovation-jobs" title="Innovation Jobs" rel="follow">Innovation Jobs</a></li>
+                                    <li><a href="#" title="Education Resources" rel="nofollow">Education Resources</a></li>
+                                    <li><a href="#" title="Articles" rel="nofollow">Articles</a></li>
+                                </ul>
+                                <h3>Sitemaps</h3>
+                                <ul>
+                                    <li><a href="https://www.innoget.com/sitemap/technologies-for-sale" title="Technology Offers" rel="follow">Technology Offers</a></li>
+                                    <li><a href="https://www.innoget.com/sitemap/technologies-for-sale-categories" title="Technology Offers Categories" rel="follow">Technology Offers Categories</a></li>
+                                    <li><a href="https://www.innoget.com/sitemap/tech-calls" title="Innovation Needs" rel="follow">Innovation Needs</a></li>
+                                    <li><a href="https://www.innoget.com/sitemap/tech-calls-categories" title="Innovation Needs Categories" rel="follow">Innovation Needs Categories</a></li>
+                                    <li><a href="https://www.innoget.com/sitemap/organization-profiles" title="Organization Profils" rel="follow">Organization Profils</a></li>
+                                    <li><a href="https://www.innoget.com/sitemap/user-profiles" title="User Profiles" rel="follow">User Profiles</a></li>
+                                </ul>
+                            </div>
+                            <div class="grid-item">
+                                <h3>Publish</h3>
+                                <ul>
+                                    <li><a href="https://www.innoget.com/publish-your-tech-call" title="Add Innovation Needs" rel="nofollow">Add Innovation Needs</a></li>
+                                    <li><a href="https://www.innoget.com/publish-your-technology-or-knowledge" title="Add Technology Offers" rel="nofollow">Add Technology Offers</a></li>
+                                    <li><a href="https://www.innoget.com/innovation-events/add-event" title="Add Innovation Events" rel="nofollow">Add Innovation Events</a></li>
+                                    <li><a href="https://www.innoget.com/innovation-jobs/add-job" title="Add Innovation Jobs" rel="nofollow">Add Innovation Jobs</a></li>
+                                    <li><a href="https://www.innoget.com/education-resources/add" title="Add Education Resources" rel="nofollow">Add Education Resources</a></li>
+                                    <li><a href="https://www.innoget.com/innovation-articles/add" title="Add Articles">Add Articles</a></li>
+                                    <div class="profiles">
+                                        <li><a href="https://www.innoget.com/account/profile/edit" title="Publish your professional profile" rel="nofollow">Publish your professional profile</a></li>
+                                        <li><a href="https://www.innoget.com/account/organization/profile/edit" title="Publish your organization profile" rel="nofollow">Publish your organization profile</a></li>
+                                    </div>
+                                </ul>
+                                <div class="badges">
+                                    <a href="https://drive.google.com/file/d/1x_mf7qu99u2Ot7YIQEjeqx3WGF5d2huZ/view?usp=sharing" title="Innoget GDPR Compliance Certificate" rel="nofollow">
+                                        <img src="../img/gdpr-compliant-badge.svg" alt="Innoget GDPR Compliance Badge">
+                                    </a>
+                                    <a href="https://www.innoget.com/innovation-blog/news/42/gartner-names-innoget-a-2015-cool-vendor-in-r-d-for-manufacturers" title="Innoget Gartner Cool Vendor 2015" rel="nofollow">
+                                        <img src="../img/gartner-badge.svg" alt="Innoget Gartner Cool Vendor 2015">
+                                    </a>
+                                </div>
+                            </div>
 						</div>
 					</div>
 				</div>

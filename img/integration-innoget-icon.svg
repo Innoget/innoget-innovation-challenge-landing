@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="93px" viewBox="0 0 93 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>integration-innoget-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PPT-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="integration-innoget-icon" transform="translate(-12.336362, -13.063560)">
+            <path d="M66.8182772,101 C99.1169172,101 105.128365,80.7477082 97.8054639,54.4468024 C90.4825625,28.1458966 95.9671423,14 63.6685022,14 C31.3698622,14 19.866574,32.4436532 16.3697624,62.4739253 C12.8729509,92.5041974 34.5196372,101 66.8182772,101 Z" id="Oval-Copy-21" fill="#F35A63"></path>
+            <path d="M66.8182772,101 C99.1169172,101 105.128365,80.7477082 97.8054639,54.4468024 C90.4825625,28.1458966 95.9671423,14 63.6685022,14 C31.3698622,14 19.866574,32.4436532 16.3697624,62.4739253 C12.8729509,92.5041974 34.5196372,101 66.8182772,101 Z" id="Oval-Copy-20" fill="#F35A63" opacity="0.2" transform="translate(58.298067, 57.500000) rotate(63.000000) translate(-58.298067, -57.500000) "></path>
+            <g id="Group" transform="translate(36.336362, 36.063560)">
+                <polygon id="Path" points="0 0 44 0 44 44 0 44"></polygon>
+                <path d="M36.6666667,20.1666667 C35.7450063,13.5346518 30.4990937,8.33971044 23.8583962,7.48284625 C17.2176987,6.62598206 10.8249322,10.3191583 8.25,16.5 M7.33333333,9.16666667 L7.33333333,16.5 L14.6666667,16.5" id="Shape" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M7.33333333,23.8333333 C8.2549937,30.4653482 13.5009063,35.6602896 20.1416038,36.5171537 C26.7823013,37.3740179 33.1750678,33.6808417 35.75,27.5 M36.6666667,34.8333333 L36.6666667,27.5 L29.3333333,27.5" id="Shape" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

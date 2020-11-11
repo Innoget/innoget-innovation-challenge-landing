@@ -1,0 +1,104 @@
+/*FOOTER*/
+footer {
+	background-color: #ffffff;
+	border-top: 1px solid #d5dfeb !important;
+	padding: 40px 0;
+	color: #58708d;
+	font-weight: 600;
+}
+
+footer .btn {
+	border-radius: 8px;
+}
+
+footer .grid-h {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+footer .grid-item {
+	width: 20%;
+}
+
+footer .grid-item:first-child {
+	width: 30%;
+	padding-right: 33px;
+}
+
+footer .grid-item .logo {
+	margin-bottom: 15px;
+	max-height: 25px;
+}
+
+footer h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+footer a {
+	color: #58708d;
+	font-weight: 600;
+}
+
+footer p:last-child {
+	color: #657b9a;
+	margin-top: 30px;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+
+footer ul.flex {
+	display: flex;
+	align-items: center;
+}
+
+footer ul.flex li {
+	margin-right: 8px;
+}
+
+footer .social a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer .social a svg,
+footer .social a img {
+	margin-bottom: 7px;
+}
+
+footer .social a img {
+	width: 30px;
+	height: 30px;
+}
+
+footer ul .legal,
+footer ul .profiles {
+	margin-top: 10px;
+}
+
+footer .badges {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+footer .badges img {
+	max-width: 100px;
+	height: 110px;
+	opacity: 0.8;
+}
+
+footer ul li {
+	padding: 3px 0;
+}
+
+/*END LINKS*/

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="92px" viewBox="0 0 93 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>responsive-design-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PPT-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="responsive-design-icon" transform="translate(-12.320210, -13.918386)">
+            <path d="M66.8182772,101 C99.1169172,101 105.128365,80.7477082 97.8054639,54.4468024 C90.4825625,28.1458966 95.9671423,14 63.6685022,14 C31.3698622,14 19.866574,32.4436532 16.3697624,62.4739253 C12.8729509,92.5041974 34.5196372,101 66.8182772,101 Z" id="Oval-Copy-11" fill="#58708D"></path>
+            <path d="M66.8182772,101 C99.1169172,101 105.128365,80.7477082 97.8054639,54.4468024 C90.4825625,28.1458966 95.9671423,14 63.6685022,14 C31.3698622,14 19.866574,32.4436532 16.3697624,62.4739253 C12.8729509,92.5041974 34.5196372,101 66.8182772,101 Z" id="Oval-Copy-18" fill="#58708D" opacity="0.2" transform="translate(58.298067, 57.500000) rotate(63.000000) translate(-58.298067, -57.500000) "></path>
+            <g id="Group" transform="translate(37.320210, 35.918386)">
+                <polygon id="Path" points="0 0 44 0 44 44 0 44"></polygon>
+                <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" x="5.5" y="9.16666667" width="33" height="25.6666667" rx="3.66666667"></rect>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" points="12.8333333 22 12.8333333 16.5 18.3333333 16.5"></polyline>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" points="31.1666667 22 31.1666667 27.5 25.6666667 27.5"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

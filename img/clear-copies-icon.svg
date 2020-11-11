@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="94px" viewBox="0 0 85 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>clear-copies-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PPT-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="clear-copies-icon" transform="translate(-2.000000, 0.000000)">
+            <path d="M58.4304066,94 C86.6296465,94 77.6358942,79.5898726 77.6358942,51.2727273 C77.6358942,22.9555819 86.6296465,0 58.4304066,0 C30.2311667,0 -4.43285176,26.5120091 7.37116607,51.2727273 C19.1751839,76.0334455 30.2311667,94 58.4304066,94 Z" id="Oval-Copy-12" fill="#4EDE7F"></path>
+            <path d="M61.6209327,89.7821723 C86.8202534,89.7821723 78.7832834,76.9050372 78.7832834,51.6003541 C78.7832834,26.2956711 86.8202534,5.78217233 61.6209327,5.78217233 C36.421612,5.78217233 5.44525502,29.4737549 15.9935263,51.6003541 C26.5417975,73.7269534 36.421612,89.7821723 61.6209327,89.7821723 Z" id="Oval-Copy-19" fill="#4EDE7F" opacity="0.2" transform="translate(46.938442, 47.782172) rotate(99.000000) translate(-46.938442, -47.782172) "></path>
+            <g id="Group" transform="translate(24.000000, 25.000000)">
+                <polygon id="Path" points="0 0 44 0 44 44 0 44"></polygon>
+                <path d="M7.33333333,36.6666667 L12.8333333,36.6666667" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M25.6666667,36.6666667 L38.5,36.6666667" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M12.65,27.5 L25.3,27.5" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M18.7,11.55 L29.3333333,36.6666667" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" points="9.16666667 36.6666667 20.1666667 7.33333333 23.8333333 7.33333333 36.6666667 36.6666667"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

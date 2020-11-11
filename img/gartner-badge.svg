@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="134px" viewBox="0 0 134 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Gartner Cool Vendor 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="GDPR-Badge" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gartner-Cool-Vendor-2">
+            <circle id="Oval-2" fill="#58708D" cx="67" cy="67" r="67"></circle>
+            <circle id="Oval-1" fill="#FFFFFF" cx="67" cy="67" r="59.4410256"></circle>
+            <text id="Gartner" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" letter-spacing="0.21" fill="#58708D">
+                <tspan x="25.425641" y="56.9794872">Gartner</tspan>
+            </text>
+            <rect id="Rectangle-2" fill="#58708D" x="25.425641" y="61.1589744" width="51.5384615" height="2.74871795"></rect>
+            <path d="M106.512821,61.1702272 L108.517527,61.1702272 C108.517527,61.1702272 107.984772,61.9168823 107.728991,62.2744786 C107.330666,62.8313606 106.512821,63.9189451 106.512821,63.9189451 L106.512821,63.9076923 L78.3384615,63.9076923 L78.3384615,61.1589744 L106.512821,61.1589744 L106.512821,61.1702272 Z" id="Rectangle-3" fill="#58708D"></path>
+            <rect id="Rectangle-4" fill="#58708D" x="25.425641" y="81.774359" width="28.8615385" height="6.18461538"></rect>
+            <path d="M56.3487179,81.774359 L103.764103,81.774359 L103.764103,87.9589744 L56.3487179,87.9589744 L56.3487179,81.774359 Z M103.764103,81.7713341 L107.932244,81.7851782 L103.777975,87.9559495 L103.764103,81.7713341 Z" id="Rectangle-5" fill="#58708D"></path>
+            <text id="2015" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="14.28" font-weight="300" letter-spacing="-0.689999998" fill="#58708D">
+                <tspan x="79.7128205" y="57.9794872">201</tspan>
+                <tspan x="101.461861" y="57.9794872">5</tspan>
+            </text>
+            <text id="CoolVendor" font-family="HelveticaNeue-Thin, Helvetica Neue" font-size="15.7241379" font-weight="300" letter-spacing="-0.488571316" fill="#58708D">
+                <tspan x="25.425641" y="77.5333333">Cool</tspan>
+                <tspan x="54.0705282" y="77.5333333" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">Vendo</tspan>
+                <tspan x="97.0704302" y="77.5333333" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">r</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

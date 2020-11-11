@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="95px" viewBox="0 0 89 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>webinar-icon-3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PPT-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="webinar-icon-3" transform="translate(-7.000000, -6.000000)">
+            <path d="M65.4304066,101 C93.6296465,101 84.6358942,86.5898726 84.6358942,58.2727273 C84.6358942,29.9555819 93.6296465,7 65.4304066,7 C37.2311667,7 2.56714824,33.5120091 14.3711661,58.2727273 C26.1751839,83.0334455 37.2311667,101 65.4304066,101 Z" id="Oval" fill="#EE8F1D"></path>
+            <path d="M76.4304066,107 C104.629646,107 95.6358942,92.5898726 95.6358942,64.2727273 C95.6358942,35.9555819 104.629646,13 76.4304066,13 C48.2311667,13 13.5671482,39.5120091 25.3711661,64.2727273 C37.1751839,89.0334455 48.2311667,107 76.4304066,107 Z" id="Oval-Copy-17" fill="#EE8F1D" opacity="0.2" transform="translate(60.000000, 60.000000) scale(-1, -1) rotate(45.000000) translate(-60.000000, -60.000000) "></path>
+            <g id="Group" transform="translate(32.000000, 32.000000)">
+                <polygon id="Path" points="0 0 44 0 44 44 0 44"></polygon>
+                <path d="M5.5,34.8333333 L5.51833333,34.8333333" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M12.8333333,34.8333333 C12.8333333,30.7832452 9.55008817,27.5 5.5,27.5" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M20.1666667,34.8333333 C20.1666667,26.733157 13.6001763,20.1666667 5.5,20.1666667" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M27.5,34.8333333 L33,34.8333333 C36.0375661,34.8333333 38.5,32.3708995 38.5,29.3333333 L38.5,14.6666667 C38.5,11.6291005 36.0375661,9.16666667 33,9.16666667 L11,9.16666667 C8.68834648,9.18860902 6.63714842,10.6537505 5.86666667,12.8333333" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

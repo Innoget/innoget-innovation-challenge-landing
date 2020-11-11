@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="95px" viewBox="0 0 89 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>webinar-icon-2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PPT-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="webinar-icon-2" transform="translate(-7.000000, -6.000000)">
+            <g id="custom-website-icon-copy" fill="#EE8F1D">
+                <path d="M65.4304066,101 C93.6296465,101 84.6358942,86.5898726 84.6358942,58.2727273 C84.6358942,29.9555819 93.6296465,7 65.4304066,7 C37.2311667,7 2.56714824,33.5120091 14.3711661,58.2727273 C26.1751839,83.0334455 37.2311667,101 65.4304066,101 Z" id="Oval"></path>
+                <path d="M76.4304066,107 C104.629646,107 95.6358942,92.5898726 95.6358942,64.2727273 C95.6358942,35.9555819 104.629646,13 76.4304066,13 C48.2311667,13 13.5671482,39.5120091 25.3711661,64.2727273 C37.1751839,89.0334455 48.2311667,107 76.4304066,107 Z" id="Oval-Copy-17" opacity="0.2" transform="translate(60.000000, 60.000000) scale(-1, -1) rotate(45.000000) translate(-60.000000, -60.000000) "></path>
+            </g>
+            <g id="Group" transform="translate(31.000000, 32.000000)">
+                <polygon id="Path" points="0 0 44 0 44 44 0 44"></polygon>
+                <path d="M38.5,12.8333333 L5.5,12.8333333" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" points="33 18.3333333 38.5 12.8333333 33 7.33333333"></polyline>
+                <polyline id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" points="11 36.6666667 5.5 31.1666667 11 25.6666667"></polyline>
+                <path d="M5.5,31.1666667 L38.5,31.1666667" id="Path" stroke="#FFFFFF" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
