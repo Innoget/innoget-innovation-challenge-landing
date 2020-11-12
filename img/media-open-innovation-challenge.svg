@@ -24,7 +24,7 @@
             <feColorMatrix values="0 0 0 0 0.62745098   0 0 0 0 0.682352941   0 0 0 0 0.752941176  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="PPT-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group" transform="translate(0.000000, 40.000000)">
             <rect id="Rectangle" fill="#C4EDD2" x="40" y="527" width="195" height="193" rx="8"></rect>
             <circle id="Oval" fill="#F9DAB5" cx="93" cy="202" r="93"></circle>
@@ -55,10 +55,10 @@
                         <rect id="Rectangle-Copy-17" fill="#E9EDF1" x="764" y="40" width="19" height="19" rx="9.5"></rect>
                         <rect id="Rectangle-Copy-18" fill="#E9EDF1" x="737" y="40" width="19" height="19" rx="9.5"></rect>
                         <rect id="Rectangle-Copy-19" fill="#E9EDF1" x="710" y="40" width="19" height="19" rx="9.5"></rect>
-                        <text id="Transforming-Atopics" font-family="Raleway-Bold, Raleway" font-size="35" font-weight="bold" fill="#0C3566">
-                            <tspan x="80" y="142">Transforming Atopics </tspan>
-                            <tspan x="80" y="183">Dermatitis Care Innovation </tspan>
-                            <tspan x="80" y="224">Challenge</tspan>
+                        <text id="Transforming-Atopic" font-family="Raleway-Bold, Raleway" font-size="35" font-weight="bold" fill="#0C3566">
+                            <tspan x="80" y="142">Transforming Atopic </tspan>
+                            <tspan x="80" y="183">Dermatitis Care Open </tspan>
+                            <tspan x="80" y="224">Innovation Challenge</tspan>
                         </text>
                         <text id="The-Challenge" font-family="Raleway-Bold, Raleway" font-size="25" font-weight="bold" fill="#0C3566">
                             <tspan x="80" y="405">The Challenge</tspan>

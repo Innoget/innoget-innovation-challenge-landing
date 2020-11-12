@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="143px" viewBox="0 0 89 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="GDPR-Badge" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6">
+            <path d="M88.3099671,122 L49.6292488,142.566903 L49.5702873,142.456012 L49.5569479,142.480077 L12.6099105,122 L12,122 L12,121.661921 L11.9483005,121.633264 L12,121.539995 L12,96 L12,70 L12,50 L30,50 L30,70 L50,70 L50,50 L69,50 L69,30 L89,30 L89,50 L89,70 L89,96 L89,122 L88.3099671,122 Z M80,116.225357 L80,96 L21,96 L21,116.360516 L49.7616633,132.303366 L80,116.225357 Z M0,0 L10,0 L10,10 L0,10 L0,0 Z M10,10 L30,10 L30,30 L10,30 L10,10 Z M30,30 L50,30 L50,50 L30,50 L30,30 Z M50,17 L63,17 L63,30 L50,30 L50,17 Z" id="Combined-Shape" fill="#58708D"></path>
+            <g id="Group-5" transform="translate(36.000000, 77.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="14" cy="14" r="14"></circle>
+                <circle id="Oval-Copy" fill="#58708D" cx="14.5" cy="14" r="9"></circle>
+                <polygon id="Path-3" fill="#58708D" points="11.1822034 22.0966693 8.5 43.1473388 20.8068035 43.1473388 17.9202345 22.0966693"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

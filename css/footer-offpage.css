@@ -92,9 +92,14 @@ footer .badges {
 }
 
 footer .badges img {
-	max-width: 100px;
-	height: 110px;
+	max-width: 80px;
+	height: 88px;
 	opacity: 0.8;
+	margin: 10px;
+}
+
+footer .badges .tooltip {
+	width: 300px;
 }
 
 footer ul li {

@@ -212,6 +212,18 @@ section {
 	margin-top: 60px;
 }
 
+#header .testimonials .carousel-indicators {
+	bottom: -40px;
+}
+
+#header .testimonials .carousel-indicators li {
+	border: 1px solid #1d7cee;
+}
+
+#header .testimonials .carousel-indicators li.active {
+	background-color: #1d7cee;
+}
+
 #header .testimonials .t-grid {
 	display: flex;
 	align-items: center;
@@ -385,82 +397,86 @@ section {
 }
 
 /*END EVALUATION*/
-
 /*NETWORK*/
-
-#network {
-	padding: 60px 0;
-}
 
 #network .wrapper {
 	padding: 0 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #network .title-area {
-	max-width: 640px;
-	margin: 0 auto;
+	max-width: 750px;
 }
 
 #network .wrapper .left {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 35px;
-	text-align: center;
+	width: 40%;
+	margin-right: 30px;
 }
 
-#network .wrapper .left {
+#network .wrapper .left .global-alliance {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	align-items: flex-start;
+	margin-top: 40px;
 }
 
-#network .wrapper .left span,
+#network .wrapper .left .global-alliance span {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#network .wrapper .left .global-alliance p {
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+
+#network .wrapper .left .global-alliance svg {
+	background-color: #e8f1fd;
+	padding: 5px;
+	border-radius: 8px;
+	margin-right: 12px;
+	min-width: 35px;
+	height: auto;
+}
+
 #network .wrapper .right span {
 	font-size: 1.5em;
 	font-weight: bold;
 	display: block;
 }
 
-#network .wrapper .left .kpi {
-	padding: 0 20px;
-	font-weight: 600;
-	font-size: 15px;
-}
-
-#network .wrapper .left .kpi:not(:last-child) {
-	border-right: 1px solid #cedbe7;
-}
-
 #network .wrapper .right {
-	position: relative;
+	width: 50%;
+}
+
+#network .wrapper .right .kpis-bar {
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	margin-top: 30px;
 }
 
 #network .wrapper .right .kpi {
-	position: absolute;
-	left: 20%;
-	bottom: 15%;
-	border: 4px solid #1d7cee;
-	border-radius: 100px;
-	width: 130px;
-	height: 130px;
-	display: flex;
 	font-weight: 600;
 	font-size: 15px;
-	align-items: center;
+	padding: 10px 20px;
+	margin: 5px;
+	box-shadow: 0 0 30px #eceff3;
+	width: 31.53%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	text-align: center;
-}
-
-#network .wrapper .right .kpi span {
-	font-size: 2.6em;
 }
 
 /*END NETWORK*/
-
 /*TESTIMONIALS*/
+
 #testimonials {
-	padding: 60px 0;
 	position: relative;
 }
 
@@ -490,13 +506,6 @@ section {
 	height: 180px;
 }
 
-#testimonials .testimonials-wrapper .item .right .copy h3 {
-	font-size: 18px;
-	line-height: 28px;
-	margin-top: 0;
-	position: relative;
-}
-
 #testimonials .testimonials-wrapper .item .right .meta ul {
 	margin: 0;
 	padding: 0;
@@ -507,11 +516,11 @@ section {
 #testimonials .testimonials-wrapper .item .right .meta ul li.name {
 	margin-top: 20px;
 	margin-bottom: 5px;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 #testimonials .testimonials-wrapper .item .right .meta ul li.medium {
-	font-size: 13px;
+	font-size: 15px;
 }
 
 #testimonials .testimonials-wrapper .logos h3 {
@@ -525,8 +534,8 @@ section {
 }
 
 #testimonials .logos .grid-h img {
-	max-width: 120px;
-	margin: 8px;
+	max-width: 140px;
+	margin: 10px;
 }
 
 #testimonials .buttons .btn:last-child {
@@ -549,56 +558,6 @@ section {
 }
 
 /*TESTIMONIALS*/
-/*CONTACT*/
-
-#contact {
-	position: relative;
-	padding: 60px 0 80px 0;
-}
-
-#contact .container img {
-	position: absolute;
-	width: 200px;
-	display: flex;
-	margin: 0 auto;
-	flex-direction: row;
-	right: -120px;
-	top: -30px;
-	opacity: 0.7;
-}
-
-#contact .container h2 {
-	text-transform: none;
-	z-index: 10;
-	position: relative;
-	margin-top: 0;
-}
-
-#contact .container .box {
-	margin-left: 20px;
-	padding: 0;
-	border: none;
-}
-
-#contact .container .box .sep {
-	margin: 0;
-}
-
-#contact .container .box a .item-box p {
-	margin: 0;
-	font-weight: 700;
-}
-
-#contact .container .box a .item-box p {
-	padding: 20px;
-}
-
-#contact .container .box a:hover .item-box {
-	background: rgba(0, 0, 0, 0.05);
-	transition: 0.4s;
-}
-
-/*CONTACT*/
 
 /*RESPONSIVE*/
 
