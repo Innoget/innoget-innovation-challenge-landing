@@ -6,6 +6,7 @@
 	color: #063268;
 	margin-bottom: 0;
 	border-bottom: none;
+	z-index: 10001;
 }
 
 .navbar a {
@@ -370,7 +371,6 @@
 
 .navbar.business-solutions .navbar-header .navbar-brand .tagline {
 	margin-left: 10px;
-	font-weight: 600;
 }
 
 /*END BUSINESS SOLUTIONS NAVBAR*/
@@ -381,6 +381,7 @@
 	width: 100%;
 	z-index: 1000;
 	border-top: none;
+	background-repeat: no-repeat;
 	background: linear-gradient(
 		297.02deg,
 		rgba(255, 255, 255, 0) 0%,
@@ -477,6 +478,10 @@
 .navbar .navbar-default.header.mega-menu .mega-menu-wrapper .mega-menu-block .listings-list .item .col:nth-child(1) img {
 	width: 100px;
 	max-height: 100px;
+}
+
+.navbar .navbar-default.header.mega-menu .mega-menu-wrapper > .mega-menu-box {
+	margin: 0 20px;
 }
 
 /*END MEGA MENU/

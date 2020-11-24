@@ -6,6 +6,12 @@ body {
 	background-color: #e9edf1;
 }
 
+.dark-overlay {
+	background-color: rgba(12, 53, 102, .45) !important;
+	backdrop-filter: blur(9px);
+	-webkit-backdrop-filter: blur(9px);
+}
+
 .center:last-child {
 	margin-bottom: 60px;
 }
