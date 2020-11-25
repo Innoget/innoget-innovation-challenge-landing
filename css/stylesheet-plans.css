@@ -85,6 +85,10 @@ p.sub-h1 {
 	padding: 8px 15px;
 }
 
+.btn-xl {
+	padding: 14px 80px;
+}
+
 .center:last-child {
 	margin-bottom: 60px;
 }
@@ -149,8 +153,8 @@ section {
 	border-radius: 8px !important;
 }
 
-.buttons .btn:last-child {
-	margin-left: 8px;
+.buttons .btn:first-child {
+	margin-right: 8px;
 }
 
 /*BUTTONS*/
@@ -366,12 +370,17 @@ section {
 
 #evaluation .wrapper {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	padding: 0 15px;
 }
 
 #evaluation .wrapper .left {
-	width: 40%;
+	width: 60%;
+	margin-right: 100px;
+}
+
+#evaluation .left img {
+	width: 100%;
 }
 
 #evaluation .wrapper .perk {
@@ -389,11 +398,7 @@ section {
 }
 
 #evaluation .right {
-	width: 60%;
-}
-
-#evaluation .right img {
-	width: 100%;
+	width: 40%;
 }
 
 /*END EVALUATION*/
@@ -415,39 +420,10 @@ section {
 	margin-right: 30px;
 }
 
-#network .wrapper .left .global-alliance {
-	display: flex;
-	align-items: center;
-	align-items: flex-start;
-	margin-top: 40px;
+#network .wrapper .left .title-area {
+	margin-bottom: 30px;
 }
 
-#network .wrapper .left .global-alliance span {
-	font-size: 18px;
-	font-weight: 700;
-}
-
-#network .wrapper .left .global-alliance p {
-	font-size: 16px;
-	line-height: 25px;
-	font-weight: 600;
-	margin-top: 8px;
-}
-
-#network .wrapper .left .global-alliance svg {
-	background-color: #e8f1fd;
-	padding: 5px;
-	border-radius: 8px;
-	margin-right: 12px;
-	min-width: 35px;
-	height: auto;
-}
-
-#network .wrapper .right span {
-	font-size: 1.5em;
-	font-weight: bold;
-	display: block;
-}
 
 #network .wrapper .right {
 	width: 50%;
@@ -457,7 +433,6 @@ section {
 	display: flex;
 	align-items: center;
 	flex-flow: row wrap;
-	margin-top: 30px;
 }
 
 #network .wrapper .right .kpi {
@@ -471,6 +446,40 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+#network .wrapper .right .global-alliance {
+	display: flex;
+	align-items: center;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+
+#network .wrapper .right .global-alliance span {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#network .wrapper .right .global-alliance p {
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 600;
+	margin-top: 8px;
+}
+
+#network .wrapper .right .global-alliance svg {
+	background-color: #e8f1fd;
+	padding: 5px;
+	border-radius: 8px;
+	margin-right: 12px;
+	min-width: 35px;
+	height: auto;
+}
+
+#network .wrapper .right span {
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
 }
 
 /*END NETWORK*/

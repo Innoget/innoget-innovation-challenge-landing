@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1526px" height="1147px" viewBox="0 0 1526 1147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
-    <title>evaluation-panel-innoget</title>
-    <desc>Created with Sketch.</desc>
+<svg width="1428px" height="1147px" viewBox="0 0 1428 1147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 27</title>
     <defs>
         <rect id="path-1" x="0" y="0" width="1158" height="789" rx="20"></rect>
         <filter x="-5.5%" y="-7.9%" width="111.1%" height="116.2%" filterUnits="objectBoundingBox" id="filter-3">
@@ -11,15 +9,21 @@
             <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.62745098   0 0 0 0 0.682352941   0 0 0 0 0.752941176  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-4" x="0" y="0" width="863" height="334" rx="20"></rect>
-        <filter x="-7.4%" y="-18.6%" width="114.8%" height="138.3%" filterUnits="objectBoundingBox" id="filter-6">
+        <rect id="path-4" x="0" y="0" width="1158" height="74"></rect>
+        <filter x="-0.6%" y="-6.8%" width="101.2%" height="118.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.345098039   0 0 0 0 0.439215686   0 0 0 0 0.552941176  0 0 0 0.22775674 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-6" x="0" y="0" width="863" height="334" rx="20"></rect>
+        <filter x="-7.4%" y="-18.6%" width="114.8%" height="138.3%" filterUnits="objectBoundingBox" id="filter-8">
             <feMorphology radius="6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.62745098   0 0 0 0 0.682352941   0 0 0 0 0.752941176  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-7" x="0" y="0" width="863" height="334" rx="20"></rect>
-        <filter x="-7.4%" y="-18.6%" width="114.8%" height="138.3%" filterUnits="objectBoundingBox" id="filter-9">
+        <rect id="path-9" x="0" y="0" width="863" height="341" rx="20"></rect>
+        <filter x="-7.4%" y="-18.2%" width="114.8%" height="137.5%" filterUnits="objectBoundingBox" id="filter-11">
             <feMorphology radius="6" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
@@ -27,223 +31,280 @@
         </filter>
     </defs>
     <g id="PPT-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="evaluation-panel-innoget" transform="translate(42.000000, 40.000000)">
-            <g id="Group-5-Copy-2" transform="translate(284.000000, 0.000000)">
-                <g id="Group-6">
-                    <mask id="mask-2" fill="white">
-                        <use xlink:href="#path-1"></use>
-                    </mask>
-                    <g id="Mask">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <g id="Group-27" transform="translate(42.000000, 40.000000)">
+            <g id="Group-6">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Sidebar" mask="url(#mask-2)">
+                    <g transform="translate(90.000000, 104.000000)">
+                        <text id="Filter-posts" fill="none" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold">
+                            <tspan x="0" y="12" fill="#0C3566">Filter posts</tspan>
+                        </text>
+                        <rect id="Rectangle-Copy-6" fill="#E9EDF1" fill-rule="evenodd" x="0" y="27" width="204" height="20" rx="10"></rect>
+                        <rect id="Rectangle-Copy-49" fill="#E9EDF1" fill-rule="evenodd" x="0" y="57" width="169" height="20" rx="10"></rect>
+                        <rect id="Rectangle-Copy-50" fill="#E9EDF1" fill-rule="evenodd" x="0" y="87" width="131" height="20" rx="10"></rect>
+                        <rect id="Rectangle-Copy-51" fill="#E9EDF1" fill-rule="evenodd" x="0" y="117" width="186" height="20" rx="10"></rect>
+                        <rect id="Rectangle-Copy-52" fill="#E9EDF1" fill-rule="evenodd" x="0" y="147" width="158" height="20" rx="10"></rect>
+                        <rect id="Rectangle-Copy-57" fill="#E9EDF1" fill-rule="evenodd" x="0" y="197" width="186" height="20" rx="10"></rect>
+                        <rect id="Rectangle-Copy-56" fill="#E9EDF1" fill-rule="evenodd" x="0" y="227" width="102" height="20" rx="10"></rect>
+                        <rect id="Rectangle-Copy-55" fill="#E9EDF1" fill-rule="evenodd" x="0" y="257" width="142" height="20" rx="10"></rect>
+                        <rect id="Rectangle-Copy-54" fill="#E9EDF1" fill-rule="evenodd" x="0" y="287" width="194" height="20" rx="10"></rect>
+                        <rect id="Rectangle-Copy-53" fill="#E9EDF1" fill-rule="evenodd" x="0" y="317" width="158" height="20" rx="10"></rect>
                     </g>
                 </g>
-            </g>
-            <g id="Group-5" transform="translate(0.000000, 352.000000)">
-                <g id="Group-6">
-                    <mask id="mask-5" fill="white">
-                        <use xlink:href="#path-4"></use>
-                    </mask>
-                    <g id="Mask">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-4"></use>
+                <g id="Listing-posts" mask="url(#mask-2)">
+                    <g transform="translate(353.000000, 104.000000)">
+                        <g id="Group-21" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 41.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-13" fill="#E9EDF1" fill-rule="evenodd" x="528" y="54" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-59" fill="#E9EDF1" fill-rule="evenodd" x="597" y="54" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-60" fill="#E9EDF1" fill-rule="evenodd" x="666" y="49" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-14" fill="#6DD400" fill-rule="evenodd" x="426" y="54" width="92" height="19" rx="9.5"></rect>
+                        <g id="Group-21-Copy" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 110.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-64" fill="#E9EDF1" fill-rule="evenodd" x="528" y="123" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-63" fill="#E9EDF1" fill-rule="evenodd" x="597" y="123" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-62" fill="#E9EDF1" fill-rule="evenodd" x="666" y="118" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-61" fill="#EE8F1D" fill-rule="evenodd" x="426" y="123" width="92" height="19" rx="9.5"></rect>
+                        <g id="Group-21-Copy-2" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 179.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-68" fill="#E9EDF1" fill-rule="evenodd" x="528" y="192" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-67" fill="#E9EDF1" fill-rule="evenodd" x="597" y="192" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-66" fill="#E9EDF1" fill-rule="evenodd" x="666" y="187" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-65" fill="#A0AEC0" fill-rule="evenodd" x="426" y="192" width="92" height="19" rx="9.5"></rect>
+                        <g id="Group-21-Copy-3" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 248.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-72" fill="#E9EDF1" fill-rule="evenodd" x="528" y="261" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-71" fill="#E9EDF1" fill-rule="evenodd" x="597" y="261" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-70" fill="#E9EDF1" fill-rule="evenodd" x="666" y="256" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-69" fill="#F56565" fill-rule="evenodd" x="426" y="261" width="92" height="19" rx="9.5"></rect>
+                        <g id="Group-21-Copy-4" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 317.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-76" fill="#E9EDF1" fill-rule="evenodd" x="528" y="330" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-75" fill="#E9EDF1" fill-rule="evenodd" x="597" y="330" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-74" fill="#E9EDF1" fill-rule="evenodd" x="666" y="325" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-73" fill="#6DD400" fill-rule="evenodd" x="426" y="330" width="92" height="19" rx="9.5"></rect>
+                        <g id="Group-21-Copy-5" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 386.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-80" fill="#E9EDF1" fill-rule="evenodd" x="528" y="399" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-79" fill="#E9EDF1" fill-rule="evenodd" x="597" y="399" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-78" fill="#E9EDF1" fill-rule="evenodd" x="666" y="394" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-77" fill="#6DD400" fill-rule="evenodd" x="426" y="399" width="92" height="19" rx="9.5"></rect>
+                        <g id="Group-21-Copy-6" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 455.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-84" fill="#E9EDF1" fill-rule="evenodd" x="528" y="468" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-83" fill="#E9EDF1" fill-rule="evenodd" x="597" y="468" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-82" fill="#E9EDF1" fill-rule="evenodd" x="666" y="463" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-81" fill="#A0AEC0" fill-rule="evenodd" x="426" y="468" width="92" height="19" rx="9.5"></rect>
+                        <g id="Group-21-Copy-7" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 524.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-88" fill="#E9EDF1" fill-rule="evenodd" x="528" y="537" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-87" fill="#E9EDF1" fill-rule="evenodd" x="597" y="537" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-86" fill="#E9EDF1" fill-rule="evenodd" x="666" y="532" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-85" fill="#A0AEC0" fill-rule="evenodd" x="426" y="537" width="92" height="19" rx="9.5"></rect>
+                        <g id="Group-21-Copy-8" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 593.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-92" fill="#E9EDF1" fill-rule="evenodd" x="528" y="606" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-91" fill="#E9EDF1" fill-rule="evenodd" x="597" y="606" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-90" fill="#E9EDF1" fill-rule="evenodd" x="666" y="601" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-89" fill="#E9EDF1" fill-rule="evenodd" x="426" y="606" width="92" height="19" rx="9.5"></rect>
+                        <g id="Group-21-Copy-9" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 662.000000)">
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="0" y="0" width="400" height="19" rx="9.5"></rect>
+                            <rect id="Rectangle-Copy-58" fill="#E9EDF1" x="0" y="25" width="284" height="19" rx="9.5"></rect>
+                        </g>
+                        <rect id="Rectangle-Copy-96" fill="#E9EDF1" fill-rule="evenodd" x="528" y="675" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-95" fill="#E9EDF1" fill-rule="evenodd" x="597" y="675" width="59" height="19" rx="9.5"></rect>
+                        <rect id="Rectangle-Copy-94" fill="#E9EDF1" fill-rule="evenodd" x="666" y="670" width="59" height="29" rx="14.5"></rect>
+                        <rect id="Rectangle-Copy-93" fill="#E9EDF1" fill-rule="evenodd" x="426" y="675" width="92" height="19" rx="9.5"></rect>
+                        <text id="Challenges" fill="none" font-family="Raleway-Bold, Raleway" font-size="22" font-weight="bold">
+                            <tspan x="0" y="21" fill="#0C3566">Challenges</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Navbar" mask="url(#mask-2)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
                         <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
                     </g>
-                    <g mask="url(#mask-5)">
-                        <g transform="translate(30.000000, 30.000000)">
-                            <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 124.000000)">
-                                <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
-                                <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
-                                    <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
-                                    <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
-                                </g>
-                                <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
-                            </g>
-                            <g id="Group-3-Copy" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 164.000000)">
-                                <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
-                                <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
-                                    <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
-                                    <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
-                                </g>
-                                <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
-                            </g>
-                            <g id="Group-3-Copy-2" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 204.000000)">
-                                <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
-                                <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
-                                    <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
-                                    <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
-                                </g>
-                                <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
-                            </g>
-                            <g id="Group-3-Copy-3" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 244.000000)">
-                                <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
-                                <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
-                                    <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
-                                    <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
-                                </g>
-                                <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
-                            </g>
-                            <g id="Group-4" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 99.000000)" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold">
-                                <text id="Id" fill="#0C3566">
-                                    <tspan x="0" y="12">Id</tspan>
-                                </text>
-                                <text id="Title" fill="#0C3566">
-                                    <tspan x="38" y="12">Title</tspan>
-                                </text>
-                                <text id="User" fill="#0C3566">
-                                    <tspan x="162" y="12">User</tspan>
-                                </text>
-                                <text id="Alignment" fill="#0C3566">
-                                    <tspan x="303" y="12">Alignment</tspan>
-                                </text>
-                                <text id="Risk" fill="#0C3566">
-                                    <tspan x="405" y="12">Risk</tspan>
-                                </text>
-                                <text id="Feasibility" fill="#0C3566">
-                                    <tspan x="507" y="12">Feasibility</tspan>
-                                </text>
-                                <text id="Social-impact" fill="#0C3566">
-                                    <tspan x="609" y="12">Social impact</tspan>
-                                </text>
-                                <text id="Cost" fill="#0C3566">
-                                    <tspan x="711" y="12">Cost</tspan>
-                                </text>
-                            </g>
-                            <text id="Challenge-Evaluation" fill="none" font-family="Raleway-Bold, Raleway" font-size="22" font-weight="bold">
-                                <tspan x="0" y="48" fill="#0C3566">Challenge Evaluation</tspan>
-                            </text>
-                            <rect id="Rectangle-Copy" fill="#E9EDF1" fill-rule="evenodd" x="0" y="77" width="490" height="12" rx="4"></rect>
-                            <rect id="Rectangle-Copy-2" fill="#E9EDF1" fill-rule="evenodd" x="0" y="65" width="490" height="12" rx="4"></rect>
-                            <rect id="Rectangle-Copy-3" fill="#1D7CEE" fill-rule="evenodd" x="13" y="0" width="89" height="7" rx="3.5"></rect>
-                            <rect id="Rectangle-Copy-4" fill="#1D7CEE" fill-rule="evenodd" x="0" y="0" width="7" height="7" rx="3.5"></rect>
-                        </g>
+                    <rect id="Rectangle-Copy-2" fill="#E9EDF1" x="164" y="14" width="324" height="46" rx="23"></rect>
+                    <g id="Group" opacity="0.402029128" transform="translate(444.000000, 22.000000)">
+                        <polygon id="Path" points="0 0 29 0 29 29 0 29"></polygon>
+                        <circle id="Oval" stroke="#58708D" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" cx="12.5" cy="12.5" r="8.5"></circle>
+                        <line x1="25" y1="25" x2="18" y2="18" id="Path" stroke="#58708D" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                    <rect id="Rectangle-Copy-46" fill="#E9EDF1" x="950" y="25" width="118" height="23" rx="11.5"></rect>
+                    <rect id="Rectangle-Copy-47" fill="#E9EDF1" x="822" y="25" width="118" height="23" rx="11.5"></rect>
+                    <rect id="Rectangle-Copy-48" fill="#E9EDF1" x="694" y="25" width="118" height="23" rx="11.5"></rect>
+                    <g id="Group" transform="translate(90.000000, 10.000000)">
+                        <path d="M30.5156468,45.9486712 C39.419435,44.305277 46.1640233,36.5012116 46.1640233,27.1218631 C46.1640233,23.4177836 45.1121324,19.9593863 43.2907729,17.0290937 C39.9128415,11.594512 33.8882318,7.97640859 27.0185688,7.97640859 C16.4448262,7.97640859 7.87311426,16.5481206 7.87311426,27.1218631 C7.87311426,30.4208707 8.70751894,33.5249927 10.1767984,36.234699 C10.6364863,37.0824746 11.1583191,37.8916427 11.7361861,38.6560927" id="Oval" stroke="#1D7CEE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(27.018569, 26.962540) rotate(-131.000000) translate(-27.018569, -26.962540) "></path>
+                        <circle id="Oval-Copy" fill="#1D7CEE" cx="27.5" cy="26.5" r="8.5"></circle>
+                        <circle id="Oval-Copy-2" fill="#EE8E1D" cx="46" cy="20" r="7"></circle>
                     </g>
                 </g>
             </g>
-            <g id="Group-5-Copy-3" transform="translate(195.000000, 729.000000)">
-                <g id="Group-6">
-                    <mask id="mask-8" fill="white">
-                        <use xlink:href="#path-7"></use>
-                    </mask>
-                    <g id="Mask">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-7"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+            <g id="Group-24"></g>
+            <g id="Proposal-details" transform="translate(365.000000, 729.000000)">
+                <mask id="mask-7" fill="white">
+                    <use xlink:href="#path-6"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-6"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <g id="Group-19" mask="url(#mask-7)" fill="#E9EDF1">
+                    <g transform="translate(196.000000, 199.000000)">
+                        <rect id="Rectangle-Copy" x="0" y="0" width="152" height="31" rx="15.5"></rect>
+                        <rect id="Rectangle-Copy-40" x="160" y="0" width="152" height="31" rx="15.5"></rect>
+                        <rect id="Rectangle-Copy-41" x="320" y="0" width="152" height="31" rx="15.5"></rect>
                     </g>
-                    <g mask="url(#mask-8)">
-                        <g transform="translate(30.000000, 30.000000)">
-                            <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 124.000000)">
-                                <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
-                                <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
-                                    <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
-                                    <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
-                                </g>
-                                <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
+                </g>
+                <rect id="Rectangle-Copy-6" fill="#E9EDF1" mask="url(#mask-7)" x="86" y="146" width="114" height="19" rx="9.5"></rect>
+                <rect id="Rectangle-Copy-15" fill="#E9EDF1" mask="url(#mask-7)" x="793" y="146" width="40" height="19" rx="8"></rect>
+                <rect id="Rectangle-Copy-38" fill="#E9EDF1" mask="url(#mask-7)" x="745" y="146" width="40" height="19" rx="8"></rect>
+                <rect id="Rectangle-Copy-39" fill="#E9EDF1" mask="url(#mask-7)" x="697" y="146" width="40" height="19" rx="8"></rect>
+                <g id="Group-2" mask="url(#mask-7)" fill="#E9EDF1">
+                    <g transform="translate(86.000000, 170.000000)" id="Rectangle-Copy-9">
+                        <rect x="0" y="0" width="94" height="9" rx="4.5"></rect>
+                    </g>
+                </g>
+                <rect id="Rectangle-Copy-8" fill="#E9EDF1" mask="url(#mask-7)" x="30" y="144" width="41" height="41" rx="20.5"></rect>
+                <text id="Proposal-Details" mask="url(#mask-7)" font-family="Raleway-Bold, Raleway" font-size="22" font-weight="bold" fill="#0C3566">
+                    <tspan x="30" y="78">Proposal Details</tspan>
+                </text>
+                <text id="Description" mask="url(#mask-7)" font-family="Raleway-Bold, Raleway" font-size="18" font-weight="bold" fill="#0C3566">
+                    <tspan x="30" y="267">Description</tspan>
+                </text>
+                <rect id="Rectangle-Copy" fill="#E9EDF1" mask="url(#mask-7)" x="30" y="112" width="226" height="12" rx="4"></rect>
+                <rect id="Rectangle-Copy-2" fill="#E9EDF1" mask="url(#mask-7)" x="30" y="95" width="490" height="12" rx="4"></rect>
+                <rect id="Rectangle-Copy-42" fill="#E9EDF1" mask="url(#mask-7)" x="30" y="281" width="803" height="12" rx="6"></rect>
+                <rect id="Rectangle-Copy-43" fill="#E9EDF1" mask="url(#mask-7)" x="30" y="298" width="803" height="12" rx="6"></rect>
+                <rect id="Rectangle-Copy-44" fill="#E9EDF1" mask="url(#mask-7)" x="30" y="315" width="803" height="12" rx="6"></rect>
+                <rect id="Rectangle-Copy-45" fill="#E9EDF1" mask="url(#mask-7)" x="30" y="332" width="803" height="12" rx="6"></rect>
+                <rect id="Rectangle-Copy-3" fill="#1D7CEE" mask="url(#mask-7)" x="43" y="30" width="89" height="7" rx="3.5"></rect>
+                <rect id="Rectangle-Copy-4" fill="#1D7CEE" mask="url(#mask-7)" x="30" y="30" width="7" height="7" rx="3.5"></rect>
+            </g>
+            <g id="Group-6" transform="translate(481.000000, 352.000000)">
+                <mask id="mask-10" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-9"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                </g>
+                <g mask="url(#mask-10)">
+                    <g transform="translate(30.000000, 30.000000)">
+                        <g id="Group-3" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 131.000000)">
+                            <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
+                            <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
+                                <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
+                                <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
                             </g>
-                            <g id="Group-3-Copy" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 164.000000)">
-                                <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
-                                <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
-                                    <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
-                                    <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
-                                </g>
-                                <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
-                            </g>
-                            <g id="Group-3-Copy-2" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 204.000000)">
-                                <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
-                                <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
-                                    <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
-                                    <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
-                                </g>
-                                <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
-                            </g>
-                            <g id="Group-3-Copy-3" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 244.000000)">
-                                <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
-                                <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
-                                <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
-                                    <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
-                                    <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
-                                </g>
-                                <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
-                            </g>
-                            <g id="Group-4" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 99.000000)" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold">
-                                <text id="Id" fill="#0C3566">
-                                    <tspan x="0" y="12">Id</tspan>
-                                </text>
-                                <text id="Title" fill="#0C3566">
-                                    <tspan x="38" y="12">Title</tspan>
-                                </text>
-                                <text id="User" fill="#0C3566">
-                                    <tspan x="162" y="12">User</tspan>
-                                </text>
-                                <text id="Alignment" fill="#0C3566">
-                                    <tspan x="303" y="12">Alignment</tspan>
-                                </text>
-                                <text id="Risk" fill="#0C3566">
-                                    <tspan x="405" y="12">Risk</tspan>
-                                </text>
-                                <text id="Feasibility" fill="#0C3566">
-                                    <tspan x="507" y="12">Feasibility</tspan>
-                                </text>
-                                <text id="Social-impact" fill="#0C3566">
-                                    <tspan x="609" y="12">Social impact</tspan>
-                                </text>
-                                <text id="Cost" fill="#0C3566">
-                                    <tspan x="711" y="12">Cost</tspan>
-                                </text>
-                            </g>
-                            <text id="Challenge-Evaluation" fill="none" font-family="Raleway-Bold, Raleway" font-size="22" font-weight="bold">
-                                <tspan x="0" y="48" fill="#0C3566">Challenge Evaluation</tspan>
-                            </text>
-                            <rect id="Rectangle-Copy" fill="#E9EDF1" fill-rule="evenodd" x="0" y="77" width="490" height="12" rx="4"></rect>
-                            <rect id="Rectangle-Copy-2" fill="#E9EDF1" fill-rule="evenodd" x="0" y="65" width="490" height="12" rx="4"></rect>
-                            <rect id="Rectangle-Copy-3" fill="#1D7CEE" fill-rule="evenodd" x="13" y="0" width="89" height="7" rx="3.5"></rect>
-                            <rect id="Rectangle-Copy-4" fill="#1D7CEE" fill-rule="evenodd" x="0" y="0" width="7" height="7" rx="3.5"></rect>
+                            <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
                         </g>
+                        <g id="Group-3-Copy" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 171.000000)">
+                            <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
+                            <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
+                                <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
+                                <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
+                            </g>
+                            <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
+                        </g>
+                        <g id="Group-3-Copy-2" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 211.000000)">
+                            <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
+                            <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
+                                <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
+                                <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
+                            </g>
+                            <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
+                        </g>
+                        <g id="Group-3-Copy-3" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 251.000000)">
+                            <rect id="Rectangle-Copy" fill="#E9EDF1" x="0" y="6" width="28" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-6" fill="#E9EDF1" x="38" y="6" width="114" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-11" fill="#E9EDF1" x="303" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-12" fill="#E9EDF1" x="405" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-13" fill="#E9EDF1" x="507" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-14" fill="#E9EDF1" x="609" y="6" width="92" height="19" rx="8"></rect>
+                            <rect id="Rectangle-Copy-15" fill="#E9EDF1" x="711" y="6" width="92" height="19" rx="8"></rect>
+                            <g id="Group-2" transform="translate(199.000000, 5.000000)" fill="#E9EDF1">
+                                <rect id="Rectangle-Copy-9" x="0" y="0" width="94" height="9" rx="4.5"></rect>
+                                <rect id="Rectangle-Copy-10" x="0" y="13" width="42.9130435" height="7" rx="3.5"></rect>
+                            </g>
+                            <rect id="Rectangle-Copy-8" fill="#E9EDF1" x="162" y="0" width="30" height="30" rx="15"></rect>
+                        </g>
+                        <g id="Group-4" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 106.000000)" font-family="Raleway-Bold, Raleway" font-size="13" font-weight="bold">
+                            <text id="Id" fill="#0C3566">
+                                <tspan x="0" y="12">Id</tspan>
+                            </text>
+                            <text id="Title" fill="#0C3566">
+                                <tspan x="38" y="12">Title</tspan>
+                            </text>
+                            <text id="User" fill="#0C3566">
+                                <tspan x="162" y="12">User</tspan>
+                            </text>
+                            <text id="Alignment" fill="#0C3566">
+                                <tspan x="303" y="12">Alignment</tspan>
+                            </text>
+                            <text id="Risk" fill="#0C3566">
+                                <tspan x="405" y="12">Risk</tspan>
+                            </text>
+                            <text id="Feasibility" fill="#0C3566">
+                                <tspan x="507" y="12">Feasibility</tspan>
+                            </text>
+                            <text id="Social-impact" fill="#0C3566">
+                                <tspan x="609" y="12">Social impact</tspan>
+                            </text>
+                            <text id="Cost" fill="#0C3566">
+                                <tspan x="711" y="12">Cost</tspan>
+                            </text>
+                        </g>
+                        <text id="Challenge-Evaluation" fill="none" font-family="Raleway-Bold, Raleway" font-size="22" font-weight="bold">
+                            <tspan x="0" y="48" fill="#0C3566">Challenge Evaluation</tspan>
+                        </text>
+                        <rect id="Rectangle-Copy" fill="#E9EDF1" fill-rule="evenodd" x="0" y="82" width="490" height="12" rx="4"></rect>
+                        <rect id="Rectangle-Copy-2" fill="#E9EDF1" fill-rule="evenodd" x="0" y="65" width="490" height="12" rx="4"></rect>
+                        <rect id="Rectangle-Copy-3" fill="#1D7CEE" fill-rule="evenodd" x="13" y="0" width="89" height="7" rx="3.5"></rect>
+                        <rect id="Rectangle-Copy-4" fill="#1D7CEE" fill-rule="evenodd" x="0" y="0" width="7" height="7" rx="3.5"></rect>
                     </g>
                 </g>
             </g>
